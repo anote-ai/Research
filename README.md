@@ -1,6 +1,28 @@
 # Anote AI Research
 
-Research papers, code, and resources from the **Anote AI Research Fellowship**. Our goal is to produce publishable research across NLP, RAG, agentic AI, and annotation efficiency — with each paper producing a reusable open-source artifact.
+Research papers, benchmark code, presentations, and planning resources from the **Anote AI Research Fellowship**.
+
+The fellowship goal is to produce publishable research across NLP, RAG, agentic AI, and annotation efficiency, with each paper producing a reusable open-source artifact.
+
+## At a Glance
+
+| Area | What is here |
+|------|--------------|
+| Active research | 7 Summer 2026 paper tracks with LaTeX starters, research questions, venues, and tracking issues |
+| Backlog | 18 additional paper ideas for future fellowship cohorts |
+| Benchmark code | Experiments for RAG, text classification, question answering, and object detection |
+| Research assets | Prior papers, presentations, and video talks for onboarding and background reading |
+| Program tracking | A spreadsheet with paper ideas, deadlines, venues, owners, and progress |
+
+## Start Here
+
+| If you are... | Start with... |
+|---------------|---------------|
+| A fellowship intern | Pick your track in [Active Papers](#active-papers--fellowship-summer-2026), read the linked issues, then follow the [Intern Workflow](#intern-workflow) |
+| A researcher reviewing scope | Skim the active and backlog paper tables to understand the research roadmap |
+| Looking for reusable code | Browse [`researchcode/`](./researchcode/) by benchmark area |
+| Looking for paper drafts | Open the relevant `main.tex` under [`researchpapers/`](./researchpapers/) |
+| Looking for background material | Review [`researchpresentations/`](./researchpresentations/) and the [Video Talks](#video-talks) |
 
 See [`anote_fellowship_tracker.xlsx`](./anote_fellowship_tracker.xlsx) for the full tracker with 25 paper ideas, deadlines, venues, and progress.
 
