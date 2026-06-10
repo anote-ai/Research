@@ -193,20 +193,6 @@ def main():
             'llm_eval': llm_eval
         })
 
-        cosine_similarity_score = calculate_cosine_similarity(model_answer, ref_answer)
-        bert_score = calculate_bertscore(model_answer, ref_answer)
-        llm_eval = evaluate_llm_responses(question, model_answer, ref_answer, openai_api_key)
-
-        results_list.append({
-            'doc_name': doc_name,
-            'question': question,
-            'ref_answer': ref_answer,
-            'model_answer': model_answer,
-            'cosine_similarity': cosine_similarity_score,
-            'bert_score': bert_score,
-            'llm_eval': llm_eval
-        })
-
     results_df = pd.DataFrame(results_list)
     results_df.to_csv('fake_rag_results_test.csv', index=False)
 
