@@ -1,0 +1,121 @@
+config,domain,query,error_type,propagation_label,injection_step_index,injection_fidelity,final_fidelity,n_steps_after_injection
+2-step,finance,What was the company's total revenue in fiscal year 2023?,wrong_chunk,compounding,0,0.4853398937681993,0.22845130738359978,2
+2-step,finance,What was the company's total revenue in fiscal year 2023?,partial_chunk,compounding,0,0.793618903953776,0.3695989598694441,2
+2-step,finance,What was the company's total revenue in fiscal year 2023?,hallucinated_chunk,compounding,0,0.46525637490937954,0.22845130738359978,2
+2-step,finance,What was the company's total revenue in fiscal year 2023?,empty_retrieval,isolated,0,0.0,0.0,2
+2-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,wrong_chunk,compounding,0,0.44419860492735563,0.0906453733718774,2
+2-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,partial_chunk,compounding,0,0.7508194871025707,0.26658490222852504,2
+2-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,hallucinated_chunk,compounding,0,0.39809261182870026,0.0906453733718774,2
+2-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,empty_retrieval,ambiguous,0,0.0,0.08176804146599939,2
+2-step,legal,How much notice is required to terminate the agreement?,wrong_chunk,compounding,0,0.4282364129456554,0.1330494792607256,2
+2-step,legal,How much notice is required to terminate the agreement?,partial_chunk,compounding,0,0.7419199797591681,0.24728455771442365,2
+2-step,legal,How much notice is required to terminate the agreement?,hallucinated_chunk,compounding,0,0.46504035106572034,0.1330494792607256,2
+2-step,legal,How much notice is required to terminate the agreement?,empty_retrieval,isolated,0,0.0,0.038330800219044614,2
+2-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,wrong_chunk,compounding,0,0.3584920871412311,0.0,2
+2-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,partial_chunk,compounding,0,0.6348410044833466,0.1585888912749789,2
+2-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,hallucinated_chunk,compounding,0,0.3271833335182565,0.0,2
+2-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,empty_retrieval,isolated,0,0.0,0.042723499235069476,2
+2-step,medical,How much did symptom severity decrease after eight weeks of treatment?,wrong_chunk,compounding,0,0.4873697721921669,0.07244081925041984,2
+2-step,medical,How much did symptom severity decrease after eight weeks of treatment?,partial_chunk,compounding,0,0.7126695910377532,0.2169338170113969,2
+2-step,medical,How much did symptom severity decrease after eight weeks of treatment?,hallucinated_chunk,compounding,0,0.3397002579756255,0.07244081925041984,2
+2-step,medical,How much did symptom severity decrease after eight weeks of treatment?,empty_retrieval,isolated,0,0.0,0.044079599467498704,2
+2-step,medical,What dosage adjustment is recommended for patients with renal impairment?,wrong_chunk,compounding,0,0.469918879052368,0.08869315378155129,2
+2-step,medical,What dosage adjustment is recommended for patients with renal impairment?,partial_chunk,compounding,0,0.7851633901006482,0.23349797486893809,2
+2-step,medical,What dosage adjustment is recommended for patients with renal impairment?,hallucinated_chunk,compounding,0,0.46180143867978257,0.08869315378155129,2
+2-step,medical,What dosage adjustment is recommended for patients with renal impairment?,empty_retrieval,isolated,0,0.0,0.0,2
+3-step,finance,What was the company's total revenue in fiscal year 2023?,wrong_chunk,compounding,0,0.502948419920127,0.22845130738359978,3
+3-step,finance,What was the company's total revenue in fiscal year 2023?,partial_chunk,compounding,0,0.793618903953776,0.3695989598694441,3
+3-step,finance,What was the company's total revenue in fiscal year 2023?,hallucinated_chunk,compounding,0,0.46525637490937954,0.22845130738359978,3
+3-step,finance,What was the company's total revenue in fiscal year 2023?,empty_retrieval,isolated,0,0.0,0.0,3
+3-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,wrong_chunk,compounding,0,0.48915039001825344,0.15675732154730002,3
+3-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,partial_chunk,compounding,0,0.7508194871025707,0.26658490222852504,3
+3-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,hallucinated_chunk,compounding,0,0.39809261182870026,0.0906453733718774,3
+3-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,empty_retrieval,ambiguous,0,0.0,0.08176804146599939,3
+3-step,legal,How much notice is required to terminate the agreement?,wrong_chunk,compounding,0,0.5411508286377589,0.1330494792607256,3
+3-step,legal,How much notice is required to terminate the agreement?,partial_chunk,compounding,0,0.7419199797591681,0.24728455771442365,3
+3-step,legal,How much notice is required to terminate the agreement?,hallucinated_chunk,compounding,0,0.46504035106572034,0.1330494792607256,3
+3-step,legal,How much notice is required to terminate the agreement?,empty_retrieval,isolated,0,0.0,0.038330800219044614,3
+3-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,wrong_chunk,compounding,0,0.3431982027759331,0.0,3
+3-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,partial_chunk,compounding,0,0.6348410044833466,0.1585888912749789,3
+3-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,hallucinated_chunk,compounding,0,0.3271833335182565,0.0,3
+3-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,empty_retrieval,isolated,0,0.0,0.042723499235069476,3
+3-step,medical,How much did symptom severity decrease after eight weeks of treatment?,wrong_chunk,compounding,0,0.40301805697653964,0.07244081925041984,3
+3-step,medical,How much did symptom severity decrease after eight weeks of treatment?,partial_chunk,compounding,0,0.7126695910377532,0.2169338170113969,3
+3-step,medical,How much did symptom severity decrease after eight weeks of treatment?,hallucinated_chunk,compounding,0,0.3397002579756255,0.07244081925041984,3
+3-step,medical,How much did symptom severity decrease after eight weeks of treatment?,empty_retrieval,isolated,0,0.0,0.044079599467498704,3
+3-step,medical,What dosage adjustment is recommended for patients with renal impairment?,wrong_chunk,compounding,0,0.5357025039101241,0.08869315378155129,3
+3-step,medical,What dosage adjustment is recommended for patients with renal impairment?,partial_chunk,compounding,0,0.7851633901006482,0.23349797486893809,3
+3-step,medical,What dosage adjustment is recommended for patients with renal impairment?,hallucinated_chunk,compounding,0,0.46180143867978257,0.08869315378155129,3
+3-step,medical,What dosage adjustment is recommended for patients with renal impairment?,empty_retrieval,isolated,0,0.0,0.0,3
+4-step-rerank,finance,What was the company's total revenue in fiscal year 2023?,wrong_chunk,compounding,0,0.528719517543719,0.22845130738359978,4
+4-step-rerank,finance,What was the company's total revenue in fiscal year 2023?,partial_chunk,compounding,0,0.793618903953776,0.3695989598694441,4
+4-step-rerank,finance,What was the company's total revenue in fiscal year 2023?,hallucinated_chunk,compounding,0,0.46525637490937954,0.22845130738359978,4
+4-step-rerank,finance,What was the company's total revenue in fiscal year 2023?,empty_retrieval,isolated,0,0.0,0.0,4
+4-step-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,wrong_chunk,compounding,0,0.44419860492735563,0.0906453733718774,4
+4-step-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,partial_chunk,compounding,0,0.7508194871025707,0.4499896190063882,4
+4-step-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,hallucinated_chunk,compounding,0,0.39809261182870026,0.0906453733718774,4
+4-step-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,empty_retrieval,ambiguous,0,0.0,0.08176804146599939,4
+4-step-rerank,legal,How much notice is required to terminate the agreement?,wrong_chunk,compounding,0,0.480856908652202,0.1330494792607256,4
+4-step-rerank,legal,How much notice is required to terminate the agreement?,partial_chunk,compounding,0,0.7419199797591681,0.34746272158302827,4
+4-step-rerank,legal,How much notice is required to terminate the agreement?,hallucinated_chunk,compounding,0,0.46504035106572034,0.1330494792607256,4
+4-step-rerank,legal,How much notice is required to terminate the agreement?,empty_retrieval,isolated,0,0.0,0.038330800219044614,4
+4-step-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,wrong_chunk,compounding,0,0.3806994311846724,0.0,4
+4-step-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,partial_chunk,compounding,0,0.6348410044833466,0.0,4
+4-step-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,hallucinated_chunk,compounding,0,0.3271833335182565,0.0,4
+4-step-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,empty_retrieval,isolated,0,0.0,0.042723499235069476,4
+4-step-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,wrong_chunk,compounding,0,0.35012538469565346,0.052249853500008124,4
+4-step-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,partial_chunk,compounding,0,0.7126695910377532,0.3799783615910079,4
+4-step-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,hallucinated_chunk,compounding,0,0.3397002579756255,0.07244081925041984,4
+4-step-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,empty_retrieval,isolated,0,0.0,0.044079599467498704,4
+4-step-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,wrong_chunk,compounding,0,0.42193119839209536,0.08869315378155129,4
+4-step-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,partial_chunk,compounding,0,0.7851633901006482,0.23349797486893809,4
+4-step-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,hallucinated_chunk,compounding,0,0.46180143867978257,0.08869315378155129,4
+4-step-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,empty_retrieval,isolated,0,0.0,0.0,4
+4-step-no-rerank,finance,What was the company's total revenue in fiscal year 2023?,wrong_chunk,compounding,1,0.5999977655853923,0.22845130738359978,3
+4-step-no-rerank,finance,What was the company's total revenue in fiscal year 2023?,partial_chunk,compounding,1,0.793618903953776,0.3695989598694441,3
+4-step-no-rerank,finance,What was the company's total revenue in fiscal year 2023?,hallucinated_chunk,compounding,1,0.46525637490937954,0.22845130738359978,3
+4-step-no-rerank,finance,What was the company's total revenue in fiscal year 2023?,empty_retrieval,isolated,1,0.0,0.0,3
+4-step-no-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,wrong_chunk,self_correcting,1,0.6938346965613343,1.0,3
+4-step-no-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,partial_chunk,isolated,1,0.8704589712216516,0.8576319754035101,3
+4-step-no-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,hallucinated_chunk,self_correcting,1,0.6460764684413179,1.0,3
+4-step-no-rerank,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,empty_retrieval,ambiguous,1,0.0,0.08176804146599939,3
+4-step-no-rerank,legal,How much notice is required to terminate the agreement?,wrong_chunk,compounding,1,0.4863708461109069,0.1330494792607256,3
+4-step-no-rerank,legal,How much notice is required to terminate the agreement?,partial_chunk,compounding,1,0.7419199797591681,0.24728455771442365,3
+4-step-no-rerank,legal,How much notice is required to terminate the agreement?,hallucinated_chunk,compounding,1,0.46504035106572034,0.1330494792607256,3
+4-step-no-rerank,legal,How much notice is required to terminate the agreement?,empty_retrieval,isolated,1,0.0,0.038330800219044614,3
+4-step-no-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,wrong_chunk,compounding,1,0.5386107430899577,0.0,3
+4-step-no-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,partial_chunk,compounding,1,0.7720952984772349,0.1585888912749789,3
+4-step-no-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,hallucinated_chunk,compounding,1,0.4951076470224704,0.0,3
+4-step-no-rerank,legal,Where are disputes under the contract resolved and how long does confidentiality last?,empty_retrieval,isolated,1,0.0,0.042723499235069476,3
+4-step-no-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,wrong_chunk,compounding,1,0.32287300975416316,0.07244081925041984,3
+4-step-no-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,partial_chunk,compounding,1,0.7126695910377532,0.2169338170113969,3
+4-step-no-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,hallucinated_chunk,compounding,1,0.3397002579756255,0.07244081925041984,3
+4-step-no-rerank,medical,How much did symptom severity decrease after eight weeks of treatment?,empty_retrieval,isolated,1,0.0,0.044079599467498704,3
+4-step-no-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,wrong_chunk,compounding,1,0.42193119839209536,0.08869315378155129,3
+4-step-no-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,partial_chunk,compounding,1,0.7851633901006482,0.23349797486893809,3
+4-step-no-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,hallucinated_chunk,compounding,1,0.46180143867978257,0.08869315378155129,3
+4-step-no-rerank,medical,What dosage adjustment is recommended for patients with renal impairment?,empty_retrieval,isolated,1,0.0,0.0,3
+5-step,finance,What was the company's total revenue in fiscal year 2023?,wrong_chunk,compounding,1,0.528719517543719,0.22845130738359978,4
+5-step,finance,What was the company's total revenue in fiscal year 2023?,partial_chunk,compounding,1,0.793618903953776,0.3695989598694441,4
+5-step,finance,What was the company's total revenue in fiscal year 2023?,hallucinated_chunk,compounding,1,0.46525637490937954,0.22845130738359978,4
+5-step,finance,What was the company's total revenue in fiscal year 2023?,empty_retrieval,isolated,1,0.0,0.0,4
+5-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,wrong_chunk,self_correcting,1,0.6938346965613343,1.0,4
+5-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,partial_chunk,ambiguous,1,0.8704589712216516,1.0,4
+5-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,hallucinated_chunk,self_correcting,1,0.6460764684413179,1.0,4
+5-step,finance,What dividend did the board approve and what is the company's debt-to-equity ratio?,empty_retrieval,ambiguous,1,0.0,0.08176804146599939,4
+5-step,legal,How much notice is required to terminate the agreement?,wrong_chunk,compounding,1,0.5411508286377589,0.1330494792607256,4
+5-step,legal,How much notice is required to terminate the agreement?,partial_chunk,compounding,1,0.7419199797591681,0.34746272158302827,4
+5-step,legal,How much notice is required to terminate the agreement?,hallucinated_chunk,compounding,1,0.46504035106572034,0.1330494792607256,4
+5-step,legal,How much notice is required to terminate the agreement?,empty_retrieval,isolated,1,0.0,0.038330800219044614,4
+5-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,wrong_chunk,compounding,1,0.572439367676255,0.0,4
+5-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,partial_chunk,compounding,1,0.7720952984772349,0.0,4
+5-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,hallucinated_chunk,compounding,1,0.4951076470224704,0.0,4
+5-step,legal,Where are disputes under the contract resolved and how long does confidentiality last?,empty_retrieval,isolated,1,0.0,0.042723499235069476,4
+5-step,medical,How much did symptom severity decrease after eight weeks of treatment?,wrong_chunk,compounding,1,0.4029769529469631,0.07244081925041984,4
+5-step,medical,How much did symptom severity decrease after eight weeks of treatment?,partial_chunk,compounding,1,0.7126695910377532,0.3799783615910079,4
+5-step,medical,How much did symptom severity decrease after eight weeks of treatment?,hallucinated_chunk,compounding,1,0.3397002579756255,0.07244081925041984,4
+5-step,medical,How much did symptom severity decrease after eight weeks of treatment?,empty_retrieval,isolated,1,0.0,0.044079599467498704,4
+5-step,medical,What dosage adjustment is recommended for patients with renal impairment?,wrong_chunk,compounding,1,0.5075587977048398,0.08869315378155129,4
+5-step,medical,What dosage adjustment is recommended for patients with renal impairment?,partial_chunk,compounding,1,0.7851633901006482,0.23349797486893809,4
+5-step,medical,What dosage adjustment is recommended for patients with renal impairment?,hallucinated_chunk,compounding,1,0.46180143867978257,0.08869315378155129,4
+5-step,medical,What dosage adjustment is recommended for patients with renal impairment?,empty_retrieval,isolated,1,0.0,0.0,4
