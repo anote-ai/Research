@@ -3,8 +3,6 @@ import json
 import numpy as np
 from collections import defaultdict
 from sklearn.metrics import confusion_matrix
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 class ObjectDetectionEvaluator:
     def __init__(self, iou_threshold=0.5, confidence_threshold=0.0):
@@ -149,6 +147,14 @@ class ObjectDetectionEvaluator:
         }
 
     def plot_confusion(self, y_true, y_pred):
+        try:
+            import matplotlib.pyplot as plt
+            import seaborn as sns
+        except ImportError as exc:
+            raise ImportError(
+                "Plotting the confusion matrix requires matplotlib and seaborn."
+            ) from exc
+
         labels = sorted(list(set(y_true + y_pred)))
         cm = confusion_matrix(y_true, y_pred, labels=labels)
         plt.figure(figsize=(10, 8))
