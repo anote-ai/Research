@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anote AI Research Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hub-header">
+    <h1>Anote AI Research</h1>
+    <p>A central hub for Anote's AI research — papers, benchmark code, and talks, past and present.</p>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search research..." aria-label="Search research" />
+      <div id="tags" class="tags"></div>
+    </div>
+  </header>
+
+  <main id="grid" class="grid"></main>
+  <p id="empty-state" class="empty-state" hidden>No research matches your search/filter.</p>
+
+  <footer>
+    <p>Want to add your project? See <a href="https://github.com/anote-ai/Research/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

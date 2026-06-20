@@ -1,0 +1,122 @@
+[
+  {
+    "id": "retrieval-bench",
+    "title": "RetrievalBench: Cross-Domain RAG Retrieval Techniques",
+    "description": "Benchmarks chunking, query expansion, re-ranking, and hybrid search across financial, legal, medical, and technical domains to find which retrieval combination generalizes best. Extends arXiv:2404.07221.",
+    "githubUrl": "https://github.com/anote-ai/Research/tree/main/researchcode/Benchmarking-RAG",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/retrieval.pdf",
+    "talkUrl": "https://www.youtube.com/watch?v=a2hQrg2OZ-o",
+    "tags": ["RAG", "Retrieval", "Benchmarking"],
+    "status": "Published"
+  },
+  {
+    "id": "text-classification-bench",
+    "title": "Benchmarking Text Classification",
+    "description": "Compares LLM-based and fine-tuned classifiers across annotation budgets and domains to identify when each approach wins.",
+    "githubUrl": "https://github.com/anote-ai/Research/tree/main/researchcode/Benchmarking-Text-Classification",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/classification.pdf",
+    "talkUrl": "https://www.youtube.com/watch?v=IakXvvdaNJQ",
+    "tags": ["Classification", "Benchmarking", "Annotation"],
+    "status": "Published"
+  },
+  {
+    "id": "qa-bench",
+    "title": "Benchmarking Question Answering Models",
+    "description": "Evaluates extractive and generative QA models across enterprise document types to measure accuracy and failure modes.",
+    "githubUrl": "https://github.com/anote-ai/Research/tree/main/researchcode/Benchmarking-Question-Answering",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/questionanswering.pdf",
+    "talkUrl": "https://www.youtube.com/watch?v=sppn68PirPQ",
+    "tags": ["Question Answering", "Benchmarking"],
+    "status": "Published"
+  },
+  {
+    "id": "object-detection-bench",
+    "title": "Benchmarking Computer Vision / Object Detection Models",
+    "description": "Compares object detection model families on enterprise imagery tasks, following the structure of nv78/Benchmarking-Computer-Vision-Models.",
+    "githubUrl": "https://github.com/anote-ai/Research/tree/main/researchcode/Benchmarking-ObjectDetection",
+    "paperUrl": null,
+    "talkUrl": null,
+    "tags": ["Computer Vision", "Benchmarking"],
+    "status": "Published"
+  },
+  {
+    "id": "human-ai-teaming",
+    "title": "Human-AI Teaming for Preference Data & Red-Teaming",
+    "description": "Compares human-only, AI-only, and human-AI collaborative preference data construction, and measures the effect on downstream RLHF behavior and bias.",
+    "githubUrl": "https://github.com/anote-ai/Research/issues?q=label%3AT3-HumanAI",
+    "paperUrl": null,
+    "talkUrl": "https://www.youtube.com/watch?v=ZoAsXKLPyuo",
+    "tags": ["Human-AI Teaming", "RLHF", "Active"],
+    "status": "In Progress"
+  },
+  {
+    "id": "agentic-eval",
+    "title": "AgenticEval: Agentic Tool-Calling & Intent Alignment",
+    "description": "Tests whether BFCL rank predicts enterprise deployment trustworthiness, and how small language models compare on intent alignment vs. syntactic accuracy.",
+    "githubUrl": "https://github.com/anote-ai/Research/issues?q=label%3AT1a-AgenticEval",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/T1a-AgenticEval/main.tex",
+    "talkUrl": null,
+    "tags": ["Agentic", "Tool-Calling", "Active"],
+    "status": "In Progress"
+  },
+  {
+    "id": "enterprise-synth",
+    "title": "EnterpriseSynth: Synthetic Data for Private Agentic Workflows",
+    "description": "Generates verified agentic SFT and eval data directly from an OpenAPI/Swagger schema, without executing a single real API call.",
+    "githubUrl": "https://github.com/anote-ai/Research/issues?q=label%3AT1b-EnterpriseSynth",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/T1b-EnterpriseSynth/main.tex",
+    "talkUrl": null,
+    "tags": ["Synthetic Data", "Agentic", "Active"],
+    "status": "In Progress"
+  },
+  {
+    "id": "annotate-bench",
+    "title": "AnnotateBench: Annotation Requirements Across NLP Tasks",
+    "description": "Benchmarks 5 annotation strategies across 10 datasets and 5 budget levels, fitting learning curves and cost-accuracy Pareto frontiers.",
+    "githubUrl": "https://github.com/anote-ai/Research/issues?q=label%3AT2a-AnnotateBench",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/T2a-AnnotateBench/main.tex",
+    "talkUrl": null,
+    "tags": ["Annotation", "Benchmarking", "Active"],
+    "status": "In Progress"
+  },
+  {
+    "id": "annotate-roi",
+    "title": "AnnotateROI: Measuring Annotation Return on Investment",
+    "description": "Builds a cost model, stopping criterion, and LLM-vs-human decision tree so enterprises know when they've labeled enough data.",
+    "githubUrl": "https://github.com/anote-ai/Research/issues?q=label%3AT2b-AnnotateROI",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/T2b-AnnotateROI/main.tex",
+    "talkUrl": null,
+    "tags": ["Annotation", "Active"],
+    "status": "In Progress"
+  },
+  {
+    "id": "rag-failure-prop",
+    "title": "RAG Failure Propagation in Agentic Pipelines",
+    "description": "Builds an empirical taxonomy of how retrieval errors propagate, compound, or get corrected across multi-step agentic RAG pipelines.",
+    "githubUrl": "https://github.com/anote-ai/Research/issues?q=label%3AT4-RAGFailure",
+    "paperUrl": "https://github.com/anote-ai/Research/blob/main/researchpapers/T4-RAGFailureProp/main.tex",
+    "talkUrl": null,
+    "tags": ["RAG", "Agentic", "Active"],
+    "status": "In Progress"
+  },
+  {
+    "id": "fine-tuning-llms-talk",
+    "title": "Fine-Tuning LLMs",
+    "description": "Talk on practical strategies and trade-offs for fine-tuning large language models for enterprise use cases.",
+    "githubUrl": null,
+    "paperUrl": null,
+    "talkUrl": "https://www.youtube.com/watch?v=mMmaTMuRZmo",
+    "tags": ["Fine-Tuning", "Talk"],
+    "status": "Published"
+  },
+  {
+    "id": "few-shot-learning-talk",
+    "title": "Few Shot Learning (TED Talk)",
+    "description": "A TED-style talk on few-shot learning techniques and their implications for accessible AI.",
+    "githubUrl": null,
+    "paperUrl": null,
+    "talkUrl": "https://www.youtube.com/watch?v=7I_pBLjMNzs",
+    "tags": ["Few-Shot", "Talk"],
+    "status": "Published"
+  }
+]

@@ -1,5 +1,7 @@
 # Anote AI Research
 
+🔗 **[Browse the Anote Research Hub](https://anote-ai.github.io/Research/)** — a card grid of every Anote AI research project, past and present, with links to code, papers, and talks.
+
 Research papers, benchmark code, presentations, and planning resources from the **Anote AI Research Fellowship**.
 
 The fellowship goal is to produce publishable research across NLP, RAG, agentic AI, and annotation efficiency, with each paper producing a reusable open-source artifact.
