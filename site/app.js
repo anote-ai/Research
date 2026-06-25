@@ -1,5 +1,6 @@
 async function loadResearch() {
   const res = await fetch("data/research.json");
+  if (!res.ok) throw new Error(`Failed to load research data: ${res.status}`);
   return res.json();
 }
 
@@ -55,7 +56,7 @@ async function init() {
 
   const tagsContainer = document.getElementById("tags");
   tagsContainer.innerHTML = tags
-    .map((t) => `<button class="tag-chip" data-tag="${t}">${t}</button>`)
+    .map((t) => `<button class="tag-chip" data-tag="${t}" aria-pressed="false">${t}</button>`)
     .join("");
 
   const searchInput = document.getElementById("search");
@@ -73,9 +74,11 @@ async function init() {
     if (activeTags.has(tag)) {
       activeTags.delete(tag);
       btn.classList.remove("active");
+      btn.setAttribute("aria-pressed", "false");
     } else {
       activeTags.add(tag);
       btn.classList.add("active");
+      btn.setAttribute("aria-pressed", "true");
     }
     refresh();
   });
@@ -83,4 +86,7 @@ async function init() {
   render(items);
 }
 
-init();
+init().catch((err) => {
+  document.getElementById("grid").innerHTML =
+    `<p class="empty-state">Failed to load research data. ${err.message}</p>`;
+});
