@@ -110,6 +110,24 @@ Research/
 6. **Repo** — create a standalone paper repo ([reference structure](https://github.com/nv78/Benchmarking-Computer-Vision-Models))
 7. **Update** — update `anote_fellowship_tracker.xlsx` with all URLs and status
 
+## Publishing Ops
+
+Use [`researchops/`](./researchops/) as the central operating guide for where each research asset should go.
+
+- Papers and code should be centralized in this repo first.
+- Paper landing content should be prepared for `anote.ai/research`.
+- Research blog content should be prepared for `anote.ai/blog` and Medium.
+- Research presentations should be prepared for `anote.ai/researchTalks`.
+- Social launch copy should be tracked in the external social spreadsheet.
+
+Start with:
+
+- [`researchops/README.md`](./researchops/README.md)
+- [`researchops/conference-submission-checklist.md`](./researchops/conference-submission-checklist.md)
+- [`researchops/templates/paper-release-packet-template.md`](./researchops/templates/paper-release-packet-template.md)
+- [`researchops/templates/intern-outreach-template.md`](./researchops/templates/intern-outreach-template.md)
+- [`researchops/papers/`](./researchops/papers/)
+
 ---
 
 ## Video Talks

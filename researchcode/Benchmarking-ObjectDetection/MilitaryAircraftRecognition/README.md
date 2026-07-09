@@ -11,6 +11,18 @@ The Military Aircraft Recognition dataset is designed for object detection and c
 - **Link to HuggingFace Repository:** The dataset is available on HuggingFace [anyaeross/MilitaryAircraftRecognition](https://huggingface.co/datasets/anyaeross/MilitaryAircraftRecognition)
 - **Link to Original Dataset:** The original dataset can be accessed from [Kaggle](https://www.kaggle.com/datasets/khlaifiabilel/military-aircraft-recognition-dataset/data).
 
+## Evaluation Script
+
+Use `model_eval.py` to compare prediction JSON files against ground truth annotations:
+
+```bash
+python model_eval.py --gt /path/to/ground_truth.json --pred /path/to/predictions.json --plot-confusion
+```
+
+Optional flags:
+- `--iou-threshold` to change the IoU match threshold
+- `--confidence-threshold` to filter low-confidence predictions
+
 
 ## Citation
 

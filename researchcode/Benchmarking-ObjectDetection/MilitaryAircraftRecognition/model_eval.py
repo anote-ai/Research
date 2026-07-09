@@ -1,9 +1,8 @@
+import argparse
 import json
 import numpy as np
 from collections import defaultdict
 from sklearn.metrics import confusion_matrix
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 class ObjectDetectionEvaluator:
     def __init__(self, iou_threshold=0.5, confidence_threshold=0.0):
@@ -148,6 +147,14 @@ class ObjectDetectionEvaluator:
         }
 
     def plot_confusion(self, y_true, y_pred):
+        try:
+            import matplotlib.pyplot as plt
+            import seaborn as sns
+        except ImportError as exc:
+            raise ImportError(
+                "Plotting the confusion matrix requires matplotlib and seaborn."
+            ) from exc
+
         labels = sorted(list(set(y_true + y_pred)))
         cm = confusion_matrix(y_true, y_pred, labels=labels)
         plt.figure(figsize=(10, 8))
@@ -160,7 +167,10 @@ class ObjectDetectionEvaluator:
     def print_report(self, results):
         print("\n=== Overall Metrics ===")
         for k, v in results['overall'].items():
-            print(f"{k.capitalize()}: {v:.4f}")
+            if isinstance(v, (int, np.integer)):
+                print(f"{k.capitalize()}: {v}")
+            else:
+                print(f"{k.capitalize()}: {v:.4f}")
 
         print("\n=== Per-Class Metrics ===")
         print(f"{'Class':<10} {'TP':<5} {'FP':<5} {'FN':<5}")
@@ -168,20 +178,51 @@ class ObjectDetectionEvaluator:
             print(f"{cls:<10} {m['tp']:<5} {m['fp']:<5} {m['fn']:<5}")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Evaluate object detection predictions against ground truth JSON files."
+    )
+    parser.add_argument("--gt", required=True, help="Path to the ground truth JSON file.")
+    parser.add_argument("--pred", required=True, help="Path to the predictions JSON file.")
+    parser.add_argument(
+        "--iou-threshold",
+        type=float,
+        default=0.5,
+        help="IoU threshold used to match predictions to ground truth.",
+    )
+    parser.add_argument(
+        "--confidence-threshold",
+        type=float,
+        default=0.0,
+        help="Minimum confidence score required to keep a prediction.",
+    )
+    parser.add_argument(
+        "--plot-confusion",
+        action="store_true",
+        help="Display a confusion matrix after printing the metrics report.",
+    )
+    return parser.parse_args()
+
+
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main():
-    gt_path = "/Users/mohamedzakariakheder/Documents/code/Anote/cv-research/ground_truths (3).json"
-    pred_path = "/Users/mohamedzakariakheder/Documents/code/Anote/cv-research/predictions (1).json"
+    args = parse_args()
 
-    with open(gt_path, 'r') as f:
-        gt_data = json.load(f)
+    gt_data = load_json(args.gt)
+    pred_data = load_json(args.pred)
 
-    with open(pred_path, 'r') as f:
-        pred_data = json.load(f)
-
-    evaluator = ObjectDetectionEvaluator(iou_threshold=0.5, confidence_threshold=0.0)
+    evaluator = ObjectDetectionEvaluator(
+        iou_threshold=args.iou_threshold,
+        confidence_threshold=args.confidence_threshold,
+    )
     results = evaluator.evaluate(gt_data, pred_data)
     evaluator.print_report(results)
-    evaluator.plot_confusion(*results['confusion_data'])
+    if args.plot_confusion:
+        evaluator.plot_confusion(*results['confusion_data'])
 
 
 if __name__ == "__main__":
