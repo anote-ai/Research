@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Aye Oyemami
 - Owner: Spurthi
 - Standalone paper repo: `https://github.com/anote-ai/research-enterprisebench`
-- Central coordination repo path: `researchpapers/T1a-AgenticEval/`
+- Central coordination repo path: `researchpapers/EnterpriseBench/`
 - Target venue(s): DAI 2026 Industry Track + AAAI 2027
 - Deadline(s): 3 Aug, 19:59 / 28 Jul (AAAI)
 - Core contribution: 200-task, 4-vertical benchmark + 5-dimensional evaluation framework; empirical study of 5 SLM families under enterprise deployment conditions.

@@ -53,7 +53,7 @@ Use this checklist once per paper.
 
 ## 6. Central Repo Storage
 
-- [ ] Paper lives under `researchpapers/<track>/`
+- [ ] Paper lives under `researchpapers/<paper-title>/`
 - [ ] Standalone paper repo is linked in the release packet
 - [ ] Code lives under `researchcode/` or linked repo
 - [ ] Presentation lives under `researchpresentations/`

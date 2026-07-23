@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Susana Haing
 - Owner: Spurthi
 - Standalone paper repo: `https://github.com/anote-ai/research-intentspecification`
-- Central coordination repo path: `researchpapers/T1a-AgenticEval/`
+- Central coordination repo path: `researchpapers/IntentSpecification/`
 - Target venue(s): EACL 2027 Industry Track + AAAI 2027 (reach)
 - Deadline(s): 29 Nov / 28 Jul (AAAI)
 - Core contribution: Separates intent-specification correctness from syntactic tool-call correctness; shows syntactic accuracy overstates real reliability.

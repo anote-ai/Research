@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Hannah Liang, Zirui Han
 - Owner: Spurthi
 - Standalone paper repo: `https://github.com/anote-ai/research-retrievalbench`
-- Central coordination repo path: `researchpapers/T5-RetrievalBench/`
+- Central coordination repo path: `researchpapers/RetrievalBench/`
 - Target venue(s): EMNLP AKBC + AAAI 2027
 - Deadline(s): 28 Jul / 28 Jul (AAAI)
 - Core contribution: Controlled 6-config ablation across 4 domains covering chunking, embedding FT, reranking, metadata, and query expansion.

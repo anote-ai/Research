@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Natan Vidra
 - Owner: Natan
 - Standalone paper repo:
-- Central coordination repo path: `researchops/papers/`
+- Central coordination repo path: `researchpapers/RecursiveSelfImprovement/`
 - Target venue(s):
 - Deadline(s):
 - Core contribution:

@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Victoria Piroian
 - Owner: Spurthi
 - Standalone paper repo: `https://github.com/anote-ai/research-metadataannotation`
-- Central coordination repo path: `researchpapers/T5-RetrievalBench/`
+- Central coordination repo path: `researchpapers/MetadataAnnotation/`
 - Target venue(s): ENCODE 2026
 - Deadline(s): 15 Aug, 17:59
 - Core contribution: Studies structure complexity as a predictor of metadata-annotation gains across domains such as 10-Ks and clinical notes.
