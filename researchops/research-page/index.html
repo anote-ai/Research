@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anote Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__eyebrow">Anote / research</div>
+        <div class="hero__content">
+          <div class="hero__copy">
+            <h1>Anote Research</h1>
+            <p class="hero__lede">
+              A central hub for Anote benchmark work, live fellowship papers,
+              talks, code, and publishing assets.
+            </p>
+            <p class="hero__subcopy">
+              This prototype is modeled as a research-first landing page: every
+              card opens into the paper, repo, talk, or coordination packet that
+              powers the work behind it.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="https://anote.ai/researchTalks" target="_blank" rel="noreferrer">Research Talks</a>
+              <a class="button button--secondary" href="https://community.anote.ai/community/content" target="_blank" rel="noreferrer">Community Content</a>
+              <a class="button button--ghost" href="https://github.com/anote-ai/Community" target="_blank" rel="noreferrer">Community Repo</a>
+            </div>
+          </div>
+          <aside class="hero__panel">
+            <div class="hero__panel-label">At a glance</div>
+            <div class="stat-grid" id="stat-grid"></div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="section__heading">
+            <div>
+              <p class="section__eyebrow">Foundation Library</p>
+              <h2>Benchmark pillars and prior research series</h2>
+            </div>
+            <p class="section__intro">
+              These are the benchmark tracks that introduced the current Anote
+              research program and still anchor the content library.
+            </p>
+          </div>
+          <div class="card-grid card-grid--featured" id="featured-projects"></div>
+        </section>
+
+        <section class="section">
+          <div class="section__heading">
+            <div>
+              <p class="section__eyebrow">Current Portfolio</p>
+              <h2>15 active research projects</h2>
+            </div>
+            <p class="section__intro">
+              Current papers from the revised 2026 fellowship plan, spanning
+              enterprise agents, RAG, annotation efficiency, code agents, and
+              defense-oriented decision systems.
+            </p>
+          </div>
+          <div class="toolbar">
+            <div class="filter-group" id="owner-filters"></div>
+            <div class="filter-group" id="track-filters"></div>
+          </div>
+          <div class="card-grid" id="active-projects"></div>
+        </section>
+
+        <section class="section section--channels">
+          <div class="section__heading">
+            <div>
+              <p class="section__eyebrow">Publishing Channels</p>
+              <h2>Where research gets published</h2>
+            </div>
+            <p class="section__intro">
+              The page is designed to connect papers, blogs, talks, and
+              community content into one research surface.
+            </p>
+          </div>
+          <div class="channel-grid">
+            <a class="channel-card" href="https://anote.ai/researchTalks" target="_blank" rel="noreferrer">
+              <span class="channel-card__label">Talks</span>
+              <h3>Anote Research Talks</h3>
+              <p>Home for talk recordings, presentation decks, and research demos.</p>
+            </a>
+            <a class="channel-card" href="https://community.anote.ai/community/content" target="_blank" rel="noreferrer">
+              <span class="channel-card__label">Community</span>
+              <h3>Community Content</h3>
+              <p>Technical writing, resources, and content designed for the broader Anote community.</p>
+            </a>
+            <a class="channel-card" href="https://github.com/anote-ai/Community" target="_blank" rel="noreferrer">
+              <span class="channel-card__label">Reference</span>
+              <h3>Community Landing Repo</h3>
+              <p>A reference implementation for how the larger Anote content hub is structured today.</p>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

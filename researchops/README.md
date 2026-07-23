@@ -6,7 +6,7 @@ This directory is the central operating guide for publishing fellowship research
 
 | Artifact | Primary Destination | Secondary Destination | Store Source Materials Here |
 |---|---|---|---|
-| Research paper PDF, abstract, authors, code link | https://anote.ai/research | arXiv, conference submission portal | `researchpapers/<track>/` |
+| Research paper PDF, abstract, authors, code link | https://anote.ai/research | arXiv, conference submission portal | `researchpapers/<paper-title>/` |
 | Research blog post | https://anote.ai/blog | https://anote-ai.medium.com/ | release packet + draft links |
 | Research presentation / talk deck | https://anote.ai/researchTalks | conference talk page, YouTube if needed | `researchpresentations/` |
 | Code, figures, appendix assets, reproducibility notes | paper-specific research repo + `https://github.com/anote-ai/Research` | standalone benchmark or API repo if needed | `researchcode/`, `researchpapers/`, `researchpresentations/` |
@@ -65,7 +65,7 @@ Track these repos in every release packet when relevant:
 
 ## Repo Placement Rules
 
-- Paper drafts and PDFs: `researchpapers/<track>/`
+- Paper drafts and PDFs: `researchpapers/<paper-title>/`
 - Benchmark code and experiment scripts: `researchcode/<area>/`
 - Slide decks and presentation PDFs: `researchpresentations/`
 - Publishing operations docs and templates: `researchops/`

@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Aitong Zhang
 - Owner: Spurthi
 - Standalone paper repo: `https://github.com/anote-ai/research-annotatebench`
-- Central coordination repo path: `researchpapers/T2a-AnnotateBench/`
+- Central coordination repo path: `researchpapers/AnnotateBench/`
 - Target venue(s): JDSE 2026
 - Deadline(s): 27 Aug, 20:00
 - Core contribution: 5 strategies x 10 datasets x 5 budgets with fitted learning curves and cost-accuracy Pareto frontiers.

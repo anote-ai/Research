@@ -21,7 +21,7 @@ The fellowship goal is to produce publishable research across NLP, RAG, agentic 
 | A fellowship intern | Find your paper in [Current Papers](#current-papers--revised-2026-research-plan), then complete your release packet in [`researchops/papers/`](./researchops/papers/) |
 | A researcher reviewing scope | Skim the current paper table to understand the active research portfolio |
 | Looking for reusable code | Browse [`researchcode/`](./researchcode/) by benchmark area |
-| Looking for paper drafts | Open the relevant `main.tex` under [`researchpapers/`](./researchpapers/) |
+| Looking for paper drafts | Open the relevant folder README under [`researchpapers/`](./researchpapers/) |
 | Looking for background material | Review [`researchpresentations/`](./researchpresentations/) and the [Video Talks](#video-talks) |
 
 See [`anote_fellowship_tracker.xlsx`](./anote_fellowship_tracker.xlsx) and the matching spreadsheet for the latest deadlines, venues, owners, and submission progress.
@@ -51,17 +51,30 @@ This table reflects the current paper-level organization from the fellowship mat
 
 ---
 
-## Legacy Track Starters
+## Paper Draft Folders
 
-The repo still contains the original 7 track-level LaTeX starters under [`researchpapers/`](./researchpapers/). Those folders are useful as central drafts and historical scaffolds, but the active summer plan is now organized around the paper-level list above and the release packets in [`researchops/papers/`](./researchops/papers/).
+Paper coordination folders under [`researchpapers/`](./researchpapers/) now use paper-title slugs instead of track codes like `T1a` or `T5`. Each folder has a README with the paper topic, GitHub link, YouTube presentation placeholder, paper link, and release-packet link where applicable.
 
-- T1a: [`researchpapers/T1a-AgenticEval/`](./researchpapers/T1a-AgenticEval/)
-- T1b: [`researchpapers/T1b-EnterpriseSynth/`](./researchpapers/T1b-EnterpriseSynth/)
-- T2a: [`researchpapers/T2a-AnnotateBench/`](./researchpapers/T2a-AnnotateBench/)
-- T2b: [`researchpapers/T2b-AnnotateROI/`](./researchpapers/T2b-AnnotateROI/)
-- T3: [`researchpapers/T3-HumanAITeaming/`](./researchpapers/T3-HumanAITeaming/)
-- T4: [`researchpapers/T4-RAGFailureProp/`](./researchpapers/T4-RAGFailureProp/)
-- T5: [`researchpapers/T5-RetrievalBench/`](./researchpapers/T5-RetrievalBench/)
+- [`researchpapers/EnterpriseBench/`](./researchpapers/EnterpriseBench/)
+- [`researchpapers/IntentSpecification/`](./researchpapers/IntentSpecification/)
+- [`researchpapers/EnterpriseSynth/`](./researchpapers/EnterpriseSynth/)
+- [`researchpapers/RetrievalBench/`](./researchpapers/RetrievalBench/)
+- [`researchpapers/FinancialDocumentRetrieval/`](./researchpapers/FinancialDocumentRetrieval/)
+- [`researchpapers/RAGGeneralization/`](./researchpapers/RAGGeneralization/)
+- [`researchpapers/MetadataAnnotation/`](./researchpapers/MetadataAnnotation/)
+- [`researchpapers/AgenticRAG/`](./researchpapers/AgenticRAG/)
+- [`researchpapers/AnnotateBench/`](./researchpapers/AnnotateBench/)
+- [`researchpapers/CodeBench/`](./researchpapers/CodeBench/)
+- [`researchpapers/OrchestrateBench/`](./researchpapers/OrchestrateBench/)
+- [`researchpapers/COAGeneration/`](./researchpapers/COAGeneration/)
+- [`researchpapers/PostureAndSustainmentOptimization/`](./researchpapers/PostureAndSustainmentOptimization/)
+- [`researchpapers/RecursiveSelfImprovement/`](./researchpapers/RecursiveSelfImprovement/)
+
+Historical starter drafts that are not in the current paper table are also kept under title slugs:
+
+- [`researchpapers/AgenticEval/`](./researchpapers/AgenticEval/)
+- [`researchpapers/AnnotateROI/`](./researchpapers/AnnotateROI/)
+- [`researchpapers/HumanAITeaming/`](./researchpapers/HumanAITeaming/)
 
 ---
 
@@ -72,13 +85,23 @@ Research/
 ├── anote_fellowship_tracker.xlsx   # Fellowship tracker and legacy planning sheet
 ├── main.tex                        # Reference LaTeX template (RAG paper)
 ├── researchpapers/
-│   ├── T1a-AgenticEval/main.tex    # Legacy track-level starter
-│   ├── T1b-EnterpriseSynth/main.tex
-│   ├── T2a-AnnotateBench/main.tex
-│   ├── T2b-AnnotateROI/main.tex
-│   ├── T3-HumanAITeaming/main.tex
-│   ├── T4-RAGFailureProp/main.tex
-│   ├── T5-RetrievalBench/main.tex
+│   ├── EnterpriseBench/            # Paper-title coordination folder
+│   ├── IntentSpecification/
+│   ├── EnterpriseSynth/
+│   ├── RetrievalBench/
+│   ├── FinancialDocumentRetrieval/
+│   ├── RAGGeneralization/
+│   ├── MetadataAnnotation/
+│   ├── AgenticRAG/
+│   ├── AnnotateBench/
+│   ├── CodeBench/
+│   ├── OrchestrateBench/
+│   ├── COAGeneration/
+│   ├── PostureAndSustainmentOptimization/
+│   ├── RecursiveSelfImprovement/
+│   ├── AgenticEval/                # Historical starter topic
+│   ├── AnnotateROI/                # Historical starter topic
+│   ├── HumanAITeaming/             # Historical starter topic
 │   ├── classification.pdf
 │   ├── questionanswering.pdf
 │   └── retrieval.pdf               # arXiv:2404.07221

@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Arun Kanhai, Alina Kapanova
 - Owner: Natan
 - Standalone paper repo: `https://github.com/anote-ai/research-coageneration`
-- Central coordination repo path: `researchops/papers/`
+- Central coordination repo path: `researchpapers/COAGeneration/`
 - Target venue(s): DAI 2026 Industry Track + AAAI 2027
 - Deadline(s): 3 Aug, 19:59 / 28 Jul (AAAI)
 - Core contribution: New algorithms for MEF and GBC generation using multi-agent game framing and LLM-guided best-response self-play.

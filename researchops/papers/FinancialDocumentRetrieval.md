@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Elaine Hong, Ebuka Chidubem Uzoama
 - Owner: Spurthi
 - Standalone paper repo: `https://github.com/anote-ai/research-financialdocumentretrieval`
-- Central coordination repo path: `researchpapers/T5-RetrievalBench/`
+- Central coordination repo path: `researchpapers/FinancialDocumentRetrieval/`
 - Target venue(s): EMNLP FinNLP
 - Deadline(s): 14 Aug, 18:00
 - Core contribution: Isolates the marginal value of each retrieval technique on FinanceBench 10-Ks, including cost-per-query analysis.

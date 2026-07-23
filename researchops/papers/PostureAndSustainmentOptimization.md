@@ -5,7 +5,7 @@
 - Fellow(s) assigned: Amelie Norris, Alyssa Lee
 - Owner: Natan
 - Standalone paper repo: `https://github.com/anote-ai/research-postureandsustainmentoptimization`
-- Central coordination repo path: `researchops/papers/`
+- Central coordination repo path: `researchpapers/PostureAndSustainmentOptimization/`
 - Target venue(s): SAM.gov RFP (DASH-5)
 - Deadline(s): Per solicitation
 - Core contribution: Decision framework / multi-agent RL formulation for optimal asset positioning, sustainment, and replenishment policy tied to the Air Force DASH-5 problem.
