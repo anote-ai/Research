@@ -2,13 +2,6 @@
 
 This folder tracks the local coordination links for AnoteCodeBench / AnoteCodeBench. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 11 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex | Sharon Zheng | T6 CodeEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
-| 12 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex (Part 2) | Bryant Jiang | T6 CodeEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
-
 ## Asset Links
 
 ### Row 11: Sharon Zheng
@@ -32,23 +25,6 @@ This folder tracks the local coordination links for AnoteCodeBench / AnoteCodeBe
 - Presentation video: [https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6](https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6)
 - Venue 1: [https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track](https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track)
 - Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| Row 11 fellow | Sharon Zheng |
-| arXiv | Completed - insert link |
-| OpenReview | Completed |
-| Hugging Face | Completed - insert link |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Completed |
-| Row 12 fellow | Bryant Jiang |
-| arXiv | Completed - insert link |
-| OpenReview | Completed |
-| Hugging Face | Completed |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Completed |
 
 ## Local Pointers
 

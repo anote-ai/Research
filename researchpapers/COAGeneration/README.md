@@ -2,12 +2,6 @@
 
 This folder tracks the local coordination links for Adversarial Course-of-Action Generation. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 18 | Adversarial Course-of-Action Generation: Game-Theoretic Multi-Agent Algorithms for COA matching & COA generation | Arun Kanhai | TBD | DAI 2026 Industry Track + AAAI 2027 (aligns DoD SBIR OSW26BZ02-DV004) | TBD |
-
 ## Asset Links
 
 - Repository: [https://github.com/anote-ai/research-coageneration](https://github.com/anote-ai/research-coageneration)
@@ -18,16 +12,6 @@ This folder tracks the local coordination links for Adversarial Course-of-Action
 - Presentation slides: Final presentations_ Arun_Kanhai.pptx
 - Presentation video: [https://youtu.be/_ZvZNUDlIZU?si=hcKQ7DzUTY2-oSDW](https://youtu.be/_ZvZNUDlIZU?si=hcKQ7DzUTY2-oSDW)
 - Venue: TBD
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| arXiv | pending - insert link |
-| OpenReview | completed |
-| Hugging Face | [https://huggingface.co/datasets/anote-ai/coa-generation/](https://huggingface.co/datasets/anote-ai/coa-generation/) |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | [https://anote-ai.medium.com/measuring-how-multi-agent-ai-pipelines-fail-not-just-whether-they-succeed-784e2b638da6](https://anote-ai.medium.com/measuring-how-multi-agent-ai-pipelines-fail-not-just-whether-they-succeed-784e2b638da6) |
 
 ## Local Pointers
 

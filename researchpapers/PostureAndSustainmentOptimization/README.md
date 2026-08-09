@@ -2,13 +2,6 @@
 
 This folder tracks the local coordination links for Posture & Sustainment Optimization / Posture & Sustainment Optimization. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 16 | Posture & Sustainment Optimization: Where to Place and How to Sustain Assets (DASH-5) | Amelie Norris | T10 OptDecision | SAM.gov RFP (DASH-5) — no in-window OpenReview workshop + DAI 2026 | Per solicitation |
-| 17 | Posture & Sustainment Optimization: Where to Place and How to Sustain Assets (DASH-5) | Alyssa Lee | T10 OptDecision | SAM.gov RFP (DASH-5) — no in-window OpenReview workshop + DAI 2026 | Per solicitation |
-
 ## Asset Links
 
 ### Row 16: Amelie Norris
@@ -28,23 +21,6 @@ This folder tracks the local coordination links for Posture & Sustainment Optimi
 - Presentation slides: [https://drive.google.com/file/d/1Ud_ynD7r0W6IYtcTC9y0P5KO3tsIRVOk/view?usp=sharing](https://drive.google.com/file/d/1Ud_ynD7r0W6IYtcTC9y0P5KO3tsIRVOk/view?usp=sharing)
 - Presentation video: [https://youtu.be/QjuiJs4nYm8?si=DgJZF6s7x2BPC4kc](https://youtu.be/QjuiJs4nYm8?si=DgJZF6s7x2BPC4kc)
 - Venue: [https://sam.gov/workspace/contract/opp/d7ac3f5a0f13425c97a2298f4f6047c2/view](https://sam.gov/workspace/contract/opp/d7ac3f5a0f13425c97a2298f4f6047c2/view)
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| Row 16 fellow | Amelie Norris |
-| arXiv | [http://arxiv.org/abs/2608.05256](http://arxiv.org/abs/2608.05256) |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | [https://paperswithcode.co/paper/2608.05256](https://paperswithcode.co/paper/2608.05256) |
-| Medium | Not listed in spreadsheet |
-| Row 17 fellow | Alyssa Lee |
-| arXiv | [http://arxiv.org/abs/2608.05256](http://arxiv.org/abs/2608.05256) |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | [https://paperswithcode.co/paper/2608.05256](https://paperswithcode.co/paper/2608.05256) |
-| Medium | Not listed in spreadsheet |
 
 ## Local Pointers
 

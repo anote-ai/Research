@@ -2,12 +2,6 @@
 
 This packet is filled from the research paper matching spreadsheet and should be kept current before conference submission, arXiv posting, website publication, blog launch, and social promotion.
 
-## Paper Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 18 | Adversarial Course-of-Action Generation: Game-Theoretic Multi-Agent Algorithms for COA matching & COA generation | Arun Kanhai | TBD | DAI 2026 Industry Track + AAAI 2027 (aligns DoD SBIR OSW26BZ02-DV004) | TBD |
-
 ## Assets
 
 - Repository: [https://github.com/anote-ai/research-coageneration](https://github.com/anote-ai/research-coageneration)
@@ -18,21 +12,3 @@ This packet is filled from the research paper matching spreadsheet and should be
 - Presentation slides: Final presentations_ Arun_Kanhai.pptx
 - Presentation video: [https://youtu.be/_ZvZNUDlIZU?si=hcKQ7DzUTY2-oSDW](https://youtu.be/_ZvZNUDlIZU?si=hcKQ7DzUTY2-oSDW)
 - Venue: TBD
-
-## Publication Status
-
-| Channel | Status |
-|---|---|
-| arXiv | pending - insert link |
-| OpenReview | completed |
-| Hugging Face | [https://huggingface.co/datasets/anote-ai/coa-generation/](https://huggingface.co/datasets/anote-ai/coa-generation/) |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | [https://anote-ai.medium.com/measuring-how-multi-agent-ai-pipelines-fail-not-just-whether-they-succeed-784e2b638da6](https://anote-ai.medium.com/measuring-how-multi-agent-ai-pipelines-fail-not-just-whether-they-succeed-784e2b638da6) |
-
-## Launch Checklist
-
-- Confirm final title, author list, abstract, and PDF.
-- Confirm code and reproducibility materials are public or ready to publish.
-- Confirm venue submission status and required supplementary materials.
-- Confirm website blurb, blog copy, talk deck, video, and social copy are ready.
-- Update any `TBD`, `pending`, or `insert link` entries above.

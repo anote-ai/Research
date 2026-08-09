@@ -2,12 +2,6 @@
 
 This folder tracks the local coordination links for Financial Document Retrieval. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 6 | Financial Document Retrieval: Controlled Ablation of Chunking, Reranking & Metadata | Elaine Hong | T5 RetrievalBench | EMNLP FinNLP | 14 Aug, 18:00 |
-
 ## Asset Links
 
 - Repository: [https://github.com/anote-ai/research-financialdocumentretrieval](https://github.com/anote-ai/research-financialdocumentretrieval)
@@ -16,16 +10,6 @@ This folder tracks the local coordination links for Financial Document Retrieval
 - Presentation slides: [https://docs.google.com/presentation/d/1Yg6Aq3L3wNmqOs7sKpuIAgGoM1spumu6/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1Yg6Aq3L3wNmqOs7sKpuIAgGoM1spumu6/edit?slide=id.p1#slide=id.p1)
 - Presentation video: [https://youtu.be/KuWAGhnfDYQ?si=NqDPdHfVEC_T54Rp](https://youtu.be/KuWAGhnfDYQ?si=NqDPdHfVEC_T54Rp)
 - Venue: [https://openreview.net/group?id=EMNLP/2026/Workshop/FinNLP](https://openreview.net/group?id=EMNLP/2026/Workshop/FinNLP)
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| arXiv | pending - insert link |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Not listed in spreadsheet |
 
 ## Local Pointers
 

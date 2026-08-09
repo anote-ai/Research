@@ -66,8 +66,6 @@ This table is filled from `Anote AI Research Fellowship - Research Paper Matchin
 | [`researchpapers/PostureAndSustainmentOptimization/`](./researchpapers/PostureAndSustainmentOptimization/) | Posture & Sustainment Optimization / Posture & Sustainment Optimization | Amelie Norris, Alyssa Lee | [`researchops/papers/PostureAndSustainmentOptimization.md`](./researchops/papers/PostureAndSustainmentOptimization.md) |
 | [`researchpapers/COAGeneration/`](./researchpapers/COAGeneration/) | Adversarial Course-of-Action Generation | Arun Kanhai | [`researchops/papers/COAGeneration.md`](./researchops/papers/COAGeneration.md) |
 
-Historical folders that are not active rows in the current spreadsheet are retained for reference: [`AgenticEval`](./researchpapers/AgenticEval/), [`AnnotateROI`](./researchpapers/AnnotateROI/), [`HumanAITeaming`](./researchpapers/HumanAITeaming/), [`IntentSpecification`](./researchpapers/IntentSpecification/), [`MetadataAnnotation`](./researchpapers/MetadataAnnotation/), and [`RecursiveSelfImprovement`](./researchpapers/RecursiveSelfImprovement/).
-
 ## Repository Structure
 
 ```text

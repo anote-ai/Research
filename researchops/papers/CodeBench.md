@@ -2,13 +2,6 @@
 
 This packet is filled from the research paper matching spreadsheet and should be kept current before conference submission, arXiv posting, website publication, blog launch, and social promotion.
 
-## Paper Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 11 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex | Sharon Zheng | T6 CodeEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
-| 12 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex (Part 2) | Bryant Jiang | T6 CodeEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
-
 ## Assets
 
 ### Row 11: Sharon Zheng
@@ -32,28 +25,3 @@ This packet is filled from the research paper matching spreadsheet and should be
 - Presentation video: [https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6](https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6)
 - Venue 1: [https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track](https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track)
 - Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
-
-## Publication Status
-
-| Channel | Status |
-|---|---|
-| Row 11 fellow | Sharon Zheng |
-| arXiv | Completed - insert link |
-| OpenReview | Completed |
-| Hugging Face | Completed - insert link |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Completed |
-| Row 12 fellow | Bryant Jiang |
-| arXiv | Completed - insert link |
-| OpenReview | Completed |
-| Hugging Face | Completed |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Completed |
-
-## Launch Checklist
-
-- Confirm final title, author list, abstract, and PDF.
-- Confirm code and reproducibility materials are public or ready to publish.
-- Confirm venue submission status and required supplementary materials.
-- Confirm website blurb, blog copy, talk deck, video, and social copy are ready.
-- Update any `TBD`, `pending`, or `insert link` entries above.

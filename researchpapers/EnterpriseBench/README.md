@@ -2,12 +2,6 @@
 
 This folder tracks the local coordination links for EnterpriseBench. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 1 | EnterpriseBench: Do Syntactic Tool-Calling Benchmarks Predict Deployment Trustworthiness? | Aye Oyemami | T1a AgenticEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
-
 ## Asset Links
 
 - Repository: [https://github.com/anote-ai/research-enterprisebench](https://github.com/anote-ai/research-enterprisebench)
@@ -17,16 +11,6 @@ This folder tracks the local coordination links for EnterpriseBench. The working
 - Presentation video: [https://youtu.be/edRbINpOzdQ?si=m23BkYfUUYU1FhIs](https://youtu.be/edRbINpOzdQ?si=m23BkYfUUYU1FhIs)
 - Venue 1: [https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track](https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track)
 - Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| arXiv | completed - insert link |
-| OpenReview | completed |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Yes |
 
 ## Local Pointers
 

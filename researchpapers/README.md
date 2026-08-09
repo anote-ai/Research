@@ -26,7 +26,6 @@ This directory holds local coordination READMEs for fellowship papers. The sourc
 - [`classification.pdf`](./classification.pdf): prior text classification benchmark paper.
 - [`questionanswering.pdf`](./questionanswering.pdf): prior question-answering benchmark paper.
 - [`retrieval.pdf`](./retrieval.pdf): prior retrieval/RAG benchmark paper.
-- Historical or superseded folders: [`AgenticEval`](./AgenticEval/), [`AnnotateROI`](./AnnotateROI/), [`HumanAITeaming`](./HumanAITeaming/), [`IntentSpecification`](./IntentSpecification/), [`MetadataAnnotation`](./MetadataAnnotation/), [`RecursiveSelfImprovement`](./RecursiveSelfImprovement/).
 
 ## Maintenance Rule
 

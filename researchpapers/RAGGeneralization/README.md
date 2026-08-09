@@ -2,12 +2,6 @@
 
 This folder tracks the local coordination links for Which RAG Techniques Generalize? Legal Contract Retrieval over CUAD. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 7 | Which RAG Techniques Generalize? Legal Contract Retrieval over CUAD | Sindhu Shetty | T5 RetrievalBench | EMNLP NLLP | 11 Aug, 08:00 |
-
 ## Asset Links
 
 - Repository: [https://github.com/anote-ai/research-raggeneralization](https://github.com/anote-ai/research-raggeneralization)
@@ -16,16 +10,6 @@ This folder tracks the local coordination links for Which RAG Techniques General
 - Presentation slides: [https://docs.google.com/presentation/d/1f4DZug-PsTKD-4Zmfx6GaD7OK8TZLDmB_X2rVO4GuBM/edit?usp=sharing](https://docs.google.com/presentation/d/1f4DZug-PsTKD-4Zmfx6GaD7OK8TZLDmB_X2rVO4GuBM/edit?usp=sharing)
 - Presentation video: [https://youtu.be/To3H4cXtJuo?si=cxCXLmPlt39rzW_7](https://youtu.be/To3H4cXtJuo?si=cxCXLmPlt39rzW_7)
 - Venue: [https://openreview.net/group?id=EMNLP/2026/Workshop/NLLP](https://openreview.net/group?id=EMNLP/2026/Workshop/NLLP)
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| arXiv | pending - insert link |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Not listed in spreadsheet |
 
 ## Local Pointers
 

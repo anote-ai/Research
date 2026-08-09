@@ -2,13 +2,6 @@
 
 This folder tracks the local coordination links for RetrievalBench / RetrievalBench. The working assets live primarily in the linked paper-specific repositories and documents below.
 
-## Spreadsheet Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 4 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents | Hannah Liang | T5 RetrievalBench | EMNLP AKBC + AAAI 2027 | 28 Jul / 28 Jul (AAAI) |
-| 5 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents (Part 2) | Zirui Han | T5 RetrievalBench | EMNLP AKBC + AAAI 2027 | 28 Jul / 28 Jul (AAAI) |
-
 ## Asset Links
 
 ### Row 4: Hannah Liang
@@ -31,23 +24,6 @@ This folder tracks the local coordination links for RetrievalBench / RetrievalBe
 - Presentation video: [https://youtu.be/_B8XeINK6cU?si=B0SE11KQJYK57qMV](https://youtu.be/_B8XeINK6cU?si=B0SE11KQJYK57qMV)
 - Venue 1: [https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC](https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC)
 - Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
-
-## Submission Status
-
-| Channel | Status |
-|---|---|
-| Row 4 fellow | Hannah Liang |
-| arXiv | Not listed in spreadsheet |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Not listed in spreadsheet |
-| Row 5 fellow | Zirui Han |
-| arXiv | Not listed in spreadsheet |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Not listed in spreadsheet |
 
 ## Local Pointers
 

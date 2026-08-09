@@ -2,13 +2,6 @@
 
 This packet is filled from the research paper matching spreadsheet and should be kept current before conference submission, arXiv posting, website publication, blog launch, and social promotion.
 
-## Paper Rows
-
-| # | Paper | Fellow | Track | Target venue | Deadline |
-|---|---|---|---|---|---|
-| 4 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents | Hannah Liang | T5 RetrievalBench | EMNLP AKBC + AAAI 2027 | 28 Jul / 28 Jul (AAAI) |
-| 5 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents (Part 2) | Zirui Han | T5 RetrievalBench | EMNLP AKBC + AAAI 2027 | 28 Jul / 28 Jul (AAAI) |
-
 ## Assets
 
 ### Row 4: Hannah Liang
@@ -31,28 +24,3 @@ This packet is filled from the research paper matching spreadsheet and should be
 - Presentation video: [https://youtu.be/_B8XeINK6cU?si=B0SE11KQJYK57qMV](https://youtu.be/_B8XeINK6cU?si=B0SE11KQJYK57qMV)
 - Venue 1: [https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC](https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC)
 - Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
-
-## Publication Status
-
-| Channel | Status |
-|---|---|
-| Row 4 fellow | Hannah Liang |
-| arXiv | Not listed in spreadsheet |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Not listed in spreadsheet |
-| Row 5 fellow | Zirui Han |
-| arXiv | Not listed in spreadsheet |
-| OpenReview | Not listed in spreadsheet |
-| Hugging Face | Not listed in spreadsheet |
-| Papers With Code | Not listed in spreadsheet |
-| Medium | Not listed in spreadsheet |
-
-## Launch Checklist
-
-- Confirm final title, author list, abstract, and PDF.
-- Confirm code and reproducibility materials are public or ready to publish.
-- Confirm venue submission status and required supplementary materials.
-- Confirm website blurb, blog copy, talk deck, video, and social copy are ready.
-- Update any `TBD`, `pending`, or `insert link` entries above.
