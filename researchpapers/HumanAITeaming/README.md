@@ -1,7 +1,5 @@
 # Human-AI Teaming
 
-Human-AI Teaming is a historical starter draft on preference-data construction and how human-AI collaboration affects downstream model behavior and bias.
+Historical starter topic retained for background context.
 
-- GitHub: [Placeholder](https://github.com/anote-ai/research-humanaiteaming)
-- YouTube presentation: [Placeholder](https://www.youtube.com/watch?v=PLACEHOLDER)
-- Paper: [paper.pdf](./paper.pdf)
+For active fellowship paper links, use [`../README.md`](../README.md) and the release packets under [`../../researchops/papers/`](../../researchops/papers/).

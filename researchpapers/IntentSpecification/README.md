@@ -1,8 +1,5 @@
 # Intent Specification
 
-This paper treats intent specification as a first-class object in tool-calling agent evaluation. It separates whether an agent understood the operator's intent from whether it merely produced syntactically valid tool calls.
+Superseded by the active DevIntent spreadsheet row. Use ../DevIntent/ for the current paper links.
 
-- GitHub: [research-intentspecification](https://github.com/anote-ai/research-intentspecification)
-- YouTube presentation: [Placeholder](https://www.youtube.com/watch?v=PLACEHOLDER)
-- Paper: [paper.pdf](./paper.pdf)
-- Release packet: [IntentSpecification.md](../../researchops/papers/IntentSpecification.md)
+For active fellowship paper links, use [`../README.md`](../README.md) and the release packets under [`../../researchops/papers/`](../../researchops/papers/).

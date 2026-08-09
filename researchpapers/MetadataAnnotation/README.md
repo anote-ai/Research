@@ -1,8 +1,5 @@
 # Metadata Annotation
 
-This project studies whether document structure predicts the value of metadata annotation in RAG systems. It compares metadata gains across domains with different layout and structure complexity.
+Not present in the current research paper matching spreadsheet. Retained for historical planning reference.
 
-- GitHub: [research-metadataannotation](https://github.com/anote-ai/research-metadataannotation)
-- YouTube presentation: [Placeholder](https://www.youtube.com/watch?v=PLACEHOLDER)
-- Paper: [paper.pdf](./paper.pdf)
-- Release packet: [MetadataAnnotation.md](../../researchops/papers/MetadataAnnotation.md)
+For active fellowship paper links, use [`../README.md`](../README.md) and the release packets under [`../../researchops/papers/`](../../researchops/papers/).

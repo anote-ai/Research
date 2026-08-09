@@ -1,24 +1,36 @@
-# FinancialDocumentRetrieval Release Packet
+# Financial Document Retrieval Release Packet
 
-- Spreadsheet title: Financial Document Retrieval: Controlled Ablation of Chunking, Reranking & Metadata
-- Track: T5 RetrievalBench
-- Fellow(s) assigned: Elaine Hong, Ebuka Chidubem Uzoama
-- Owner: Spurthi
-- Standalone paper repo: `https://github.com/anote-ai/research-financialdocumentretrieval`
-- Central coordination repo path: `researchpapers/FinancialDocumentRetrieval/`
-- Target venue(s): EMNLP FinNLP
-- Deadline(s): 14 Aug, 18:00
-- Core contribution: Isolates the marginal value of each retrieval technique on FinanceBench 10-Ks, including cost-per-query analysis.
+This packet is filled from the research paper matching spreadsheet and should be kept current before conference submission, arXiv posting, website publication, blog launch, and social promotion.
 
-## Fill In
+## Paper Rows
 
-- Co-authors:
-- arXiv planned date:
-- Current status:
-- PDF path or link:
-- Code link:
-- Research page blurb:
-- Blog draft link:
-- Talk deck path:
-- Social tracker row:
-- Open blockers:
+| # | Paper | Fellow | Track | Target venue | Deadline |
+|---|---|---|---|---|---|
+| 6 | Financial Document Retrieval: Controlled Ablation of Chunking, Reranking & Metadata | Elaine Hong | T5 RetrievalBench | EMNLP FinNLP | 14 Aug, 18:00 |
+
+## Assets
+
+- Repository: [https://github.com/anote-ai/research-financialdocumentretrieval](https://github.com/anote-ai/research-financialdocumentretrieval)
+- Research paper: [https://drive.google.com/file/d/11b4exi4WBwYKM_12Syt_k-MytRRCpKxA/view?usp=drive_link](https://drive.google.com/file/d/11b4exi4WBwYKM_12Syt_k-MytRRCpKxA/view?usp=drive_link)
+- Blog post: [https://drive.google.com/file/d/1Ne1R0kGqpthcFWOaeSgMjBLov8E1qGzJ/view?usp=drive_link](https://drive.google.com/file/d/1Ne1R0kGqpthcFWOaeSgMjBLov8E1qGzJ/view?usp=drive_link)
+- Presentation slides: [https://docs.google.com/presentation/d/1Yg6Aq3L3wNmqOs7sKpuIAgGoM1spumu6/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1Yg6Aq3L3wNmqOs7sKpuIAgGoM1spumu6/edit?slide=id.p1#slide=id.p1)
+- Presentation video: [https://youtu.be/KuWAGhnfDYQ?si=NqDPdHfVEC_T54Rp](https://youtu.be/KuWAGhnfDYQ?si=NqDPdHfVEC_T54Rp)
+- Venue: [https://openreview.net/group?id=EMNLP/2026/Workshop/FinNLP](https://openreview.net/group?id=EMNLP/2026/Workshop/FinNLP)
+
+## Publication Status
+
+| Channel | Status |
+|---|---|
+| arXiv | pending - insert link |
+| OpenReview | Not listed in spreadsheet |
+| Hugging Face | Not listed in spreadsheet |
+| Papers With Code | Not listed in spreadsheet |
+| Medium | Not listed in spreadsheet |
+
+## Launch Checklist
+
+- Confirm final title, author list, abstract, and PDF.
+- Confirm code and reproducibility materials are public or ready to publish.
+- Confirm venue submission status and required supplementary materials.
+- Confirm website blurb, blog copy, talk deck, video, and social copy are ready.
+- Update any `TBD`, `pending`, or `insert link` entries above.

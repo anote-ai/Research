@@ -1,24 +1,59 @@
-# CodeBench Release Packet
+# AnoteCodeBench Release Packet
 
-- Spreadsheet title: AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex
-- Track: T6 CodeEval
-- Fellow(s) assigned: Sharon Zheng, Bryant Jiang
-- Owner: Natan
-- Standalone paper repo: `https://github.com/anote-ai/research-codebench`
-- Central coordination repo path: `researchpapers/CodeBench/`
-- Target venue(s): DAI 2026 Industry Track + AAAI 2027
-- Deadline(s): 3 Aug, 19:59 / 28 Jul (AAAI)
-- Core contribution: Repo-level code-agent benchmark and harness measuring pass@k, execution success, regression rate, and tool-use efficiency on enterprise tasks.
+This packet is filled from the research paper matching spreadsheet and should be kept current before conference submission, arXiv posting, website publication, blog launch, and social promotion.
 
-## Fill In
+## Paper Rows
 
-- Co-authors:
-- arXiv planned date:
-- Current status:
-- PDF path or link:
-- Code link:
-- Research page blurb:
-- Blog draft link:
-- Talk deck path:
-- Social tracker row:
-- Open blockers:
+| # | Paper | Fellow | Track | Target venue | Deadline |
+|---|---|---|---|---|---|
+| 11 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex | Sharon Zheng | T6 CodeEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
+| 12 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex (Part 2) | Bryant Jiang | T6 CodeEval | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
+
+## Assets
+
+### Row 11: Sharon Zheng
+
+- Repository: [https://github.com/anote-ai/research-codebench](https://github.com/anote-ai/research-codebench)
+- Research paper: [https://github.com/anote-ai/Research-CodeBench/blob/main/Beyond%20Pass%40k-%20Measuring%20Reliability%20and%20Security%20of%20Agentic%20Code%20Generation.pdf](https://github.com/anote-ai/Research-CodeBench/blob/main/Beyond%20Pass%40k-%20Measuring%20Reliability%20and%20Security%20of%20Agentic%20Code%20Generation.pdf)
+- Blog post 1: [https://github.com/anote-ai/Research-CodeBench/blob/docs/reliability-blog-post/docs/blog/beyond-pass-k-reliability-security.md](https://github.com/anote-ai/Research-CodeBench/blob/docs/reliability-blog-post/docs/blog/beyond-pass-k-reliability-security.md)
+- Blog post 2: [https://drive.google.com/file/d/1abscQNGf7w-fVa9NGjr2P2Rmml2IS_HI/view?usp=sharing](https://drive.google.com/file/d/1abscQNGf7w-fVa9NGjr2P2Rmml2IS_HI/view?usp=sharing)
+- Presentation slides: Anote Research: Beyond Pass@k: Measuring Reliability & Security of Agentic Code Generation
+- Presentation video: [https://youtu.be/6yxpcMHHMhM?si=MaYZymR41W2hRwzq](https://youtu.be/6yxpcMHHMhM?si=MaYZymR41W2hRwzq)
+- Venue 1: [https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track](https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track)
+- Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
+
+### Row 12: Bryant Jiang
+
+- Repository: [https://github.com/anote-ai/research-codebench](https://github.com/anote-ai/research-codebench)
+- Research paper: [https://drive.google.com/file/d/1BuXfCbYy_G7r-4-ZqCiROw3hA8bSyAFz/view?usp=drive_link](https://drive.google.com/file/d/1BuXfCbYy_G7r-4-ZqCiROw3hA8bSyAFz/view?usp=drive_link)
+- Blog post 1: [https://github.com/anote-ai/Research-CodeBench/blob/docs/reliability-blog-post/docs/blog/beyond-pass-k-reliability-security.md](https://github.com/anote-ai/Research-CodeBench/blob/docs/reliability-blog-post/docs/blog/beyond-pass-k-reliability-security.md)
+- Blog post 2: [https://drive.google.com/file/d/1abscQNGf7w-fVa9NGjr2P2Rmml2IS_HI/view?usp=sharing](https://drive.google.com/file/d/1abscQNGf7w-fVa9NGjr2P2Rmml2IS_HI/view?usp=sharing)
+- Presentation slides: Anote Research: Beyond Pass@k: Measuring Reliability & Security of Agentic Code Generation
+- Presentation video: [https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6](https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6)
+- Venue 1: [https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track](https://openreview.net/group?id=adai.ai/DAI/2026/Industry_Track)
+- Venue 2: [https://aaai.org/conference/aaai/aaai-27/](https://aaai.org/conference/aaai/aaai-27/)
+
+## Publication Status
+
+| Channel | Status |
+|---|---|
+| Row 11 fellow | Sharon Zheng |
+| arXiv | Completed - insert link |
+| OpenReview | Completed |
+| Hugging Face | Completed - insert link |
+| Papers With Code | Not listed in spreadsheet |
+| Medium | Completed |
+| Row 12 fellow | Bryant Jiang |
+| arXiv | Completed - insert link |
+| OpenReview | Completed |
+| Hugging Face | Completed |
+| Papers With Code | Not listed in spreadsheet |
+| Medium | Completed |
+
+## Launch Checklist
+
+- Confirm final title, author list, abstract, and PDF.
+- Confirm code and reproducibility materials are public or ready to publish.
+- Confirm venue submission status and required supplementary materials.
+- Confirm website blurb, blog copy, talk deck, video, and social copy are ready.
+- Update any `TBD`, `pending`, or `insert link` entries above.

@@ -1,160 +1,97 @@
 # Anote AI Research
 
-Research papers, benchmark code, presentations, and planning resources from the **Anote AI Research Fellowship**.
-
-The fellowship goal is to produce publishable research across NLP, RAG, agentic AI, and annotation efficiency, with each paper producing a reusable open-source artifact.
+Research papers, benchmark code, presentations, and publishing operations for the Anote AI Research Fellowship.
 
 ## At a Glance
 
 | Area | What is here |
-|------|--------------|
-| Active research | 14 current paper projects from the revised 2026 research plan, with owners, fellows, repos, and target venues |
-| Paper repos | Standalone `anote-ai` repositories for each live paper, benchmark, or applied research thread |
-| Benchmark code | Experiments for RAG, text classification, question answering, and object detection |
-| Research assets | Prior papers, presentations, and video talks for onboarding and background reading |
-| Program tracking | Spreadsheets with paper matching, deadlines, venues, owners, and publishing status |
+|---|---|
+| Active fellowship papers | 18 spreadsheet rows covering enterprise agents, RAG, annotation, code agents, orchestration, game-theoretic workflows, and optimization |
+| Paper folders | Local coordination READMEs under [`researchpapers/`](./researchpapers/) with links to papers, repos, blogs, slides, videos, venues, and release packets |
+| Publishing operations | Release packets and conference workflow docs under [`researchops/`](./researchops/) |
+| Benchmark code | Historical reusable experiments under [`researchcode/`](./researchcode/) for RAG, question answering, text classification, and object detection |
+| Research page | Spreadsheet-backed prototype in [`researchops/research-page/`](./researchops/research-page/) |
 
 ## Start Here
 
 | If you are... | Start with... |
-|---------------|---------------|
-| A fellowship intern | Find your paper in [Current Papers](#current-papers--revised-2026-research-plan), then complete your release packet in [`researchops/papers/`](./researchops/papers/) |
-| A researcher reviewing scope | Skim the current paper table to understand the active research portfolio |
-| Looking for reusable code | Browse [`researchcode/`](./researchcode/) by benchmark area |
-| Looking for paper drafts | Open the relevant folder README under [`researchpapers/`](./researchpapers/) |
-| Looking for background material | Review [`researchpresentations/`](./researchpresentations/) and the [Video Talks](#video-talks) |
+|---|---|
+| A fellowship intern | Find your row in [Current Fellowship Papers](#current-fellowship-papers) and then open the matching release packet in [`researchops/papers/`](./researchops/papers/) |
+| Updating a public launch | Use [`researchops/README.md`](./researchops/README.md) and the release packet for the paper |
+| Looking for a draft or asset links | Open the relevant folder in [`researchpapers/`](./researchpapers/) |
+| Looking for reusable benchmark code | Browse [`researchcode/README.md`](./researchcode/README.md) |
+| Updating the landing page prototype | Edit [`researchops/research-page/app.js`](./researchops/research-page/app.js) |
 
-See [`anote_fellowship_tracker.xlsx`](./anote_fellowship_tracker.xlsx) and the matching spreadsheet for the latest deadlines, venues, owners, and submission progress.
+## Current Fellowship Papers
 
----
+This table is filled from `Anote AI Research Fellowship - Research Paper Matching - Research Plan.csv`.
 
-## Current Papers — Revised 2026 Research Plan
+| # | Paper | Fellow | Track | Repo | Paper | Blog | Slides | Video | Target venue | Deadline |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | EnterpriseBench: Do Syntactic Tool-Calling Benchmarks Predict Deployment Trustworthiness? | Aye Oyemami | T1a AgenticEval | [repo](https://github.com/anote-ai/research-enterprisebench) | [paper](https://drive.google.com/file/d/19x90258PK1woXf8NuRo-DchR4xGYvpTg/view?usp=drive_link) | [blog](https://docs.google.com/document/d/1NykFB4XIeGI6Vrih7V6BMxFGQH3Bkv-zwPXzB6qAyxg/edit?usp=sharing) | [slides](https://1drv.ms/p/c/50a3131a97c12f11/IQDsRCAlhf8zRrvyy0iAV2XuAb_lNp0ggqNKNqugf90ta5k?e=mvd9KX) | [video](https://youtu.be/edRbINpOzdQ?si=m23BkYfUUYU1FhIs) | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
+| 2 | DevIntent: How Much Does LLM-Generated Code Violate Developer Intent? | Susana Haing | T1a AgenticEval | [repo](https://github.com/anote-ai/Research-DevIntent) | [paper](https://drive.google.com/file/d/1r4sK0rBhcyF5xGqGMJahS0FYtr0q2S2R/view?usp=drive_link) | [blog](https://docs.google.com/document/d/1JtWUSMJRbOIc17foEhzdqUNbqIXYKlsru-dwGA2zkCA/edit?usp=sharing) | [slides](https://docs.google.com/presentation/d/1quSxHOK7dmxaJNsaPyggTh7SL9uwSORD460fmOMYbZs/edit?usp=sharing) | [video](https://youtu.be/KVuRHCqsFA4?si=VfV0IEqDjtw82VUK) | EACL Main Track 2027 | 3 Aug |
+| 3 | EnterpriseSynth: Agentic SFT + Eval Data from API Schemas Without Live Execution | Rashmi Thimmaraju | T1b EnterpriseSynth | [repo](https://github.com/anote-ai/Research-Enterprise-Synth-API) | [paper](https://github.com/anote-ai/Research-Enterprise-Synth-API/blob/main/paper/AAAI_Main_paper.pdf) | [blog](https://docs.google.com/document/d/19fJ-Th31XwcknnHWfbD_Qaahch8i4ZMw/edit?usp=sharing&ouid=104069284400353165925&rtpof=true&sd=true) | [slides](https://docs.google.com/presentation/d/1pGxJPgxZvRPIApn8ExKDXKHFq62y0xPE3-WrapxNY5A/edit?usp=sharing) | [video](https://youtu.be/IBkw4osx2gk?si=qcnDNKQpp1d_aklI) | MLinPL 2026 + AAAI 2027 | 1 Aug / 28 Jul (AAAI) |
+| 4 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents | Hannah Liang | T5 RetrievalBench | [repo](https://github.com/anote-ai/research-retrievalbench) | [paper](https://www.overleaf.com/read/txwhhpgnzbyx#d3842a) | [blog](https://github.com/anote-ai/Research-RetrievalBench/blob/main/blog/retrievalbench.md) | [slides](https://docs.google.com/presentation/d/1G6aGF7WwgMOonKEeLg0bnIWd2a5HCLO8V_QVaZd0EWY/edit?usp=sharing) | [video](https://youtu.be/6CI7so1v1l8?si=HYXxSTbM36AvFw5G) | EMNLP AKBC + AAAI 2027 | 28 Jul / 28 Jul (AAAI) |
+| 5 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents (Part 2) | Zirui Han | T5 RetrievalBench | [repo](https://github.com/anote-ai/research-retrievalbench) | [paper](https://drive.google.com/file/d/1n61kIjX5zBNFitK5FQKvl37r4q65fqRi/view?usp=drive_link) | [blog](https://github.com/anote-ai/Research-RetrievalBench/blob/main/blog/retrievalbench.md) | [slides](https://docs.google.com/presentation/d/1-rxJn0I3H2_-TkEOpsRFFiI8t0Gh0LPzJ7GaP_GEBOc/edit?usp=sharing) | [video](https://youtu.be/_B8XeINK6cU?si=B0SE11KQJYK57qMV) | EMNLP AKBC + AAAI 2027 | 28 Jul / 28 Jul (AAAI) |
+| 6 | Financial Document Retrieval: Controlled Ablation of Chunking, Reranking & Metadata | Elaine Hong | T5 RetrievalBench | [repo](https://github.com/anote-ai/research-financialdocumentretrieval) | [paper](https://drive.google.com/file/d/11b4exi4WBwYKM_12Syt_k-MytRRCpKxA/view?usp=drive_link) | [blog](https://drive.google.com/file/d/1Ne1R0kGqpthcFWOaeSgMjBLov8E1qGzJ/view?usp=drive_link) | [slides](https://docs.google.com/presentation/d/1Yg6Aq3L3wNmqOs7sKpuIAgGoM1spumu6/edit?slide=id.p1#slide=id.p1) | [video](https://youtu.be/KuWAGhnfDYQ?si=NqDPdHfVEC_T54Rp) | EMNLP FinNLP | 14 Aug, 18:00 |
+| 7 | Which RAG Techniques Generalize? Legal Contract Retrieval over CUAD | Sindhu Shetty | T5 RetrievalBench | [repo](https://github.com/anote-ai/research-raggeneralization) | [paper](https://drive.google.com/file/d/1j_ltfKA-emQjuw22BhfcWJ_mcGc7tP-d/view?usp=sharing) | [blog](https://docs.google.com/document/d/1TTKR8F96wPYGGYnoMRmAcN6tlghq_AMJK5ARMHCZrPI/edit?tab=t.0) | [slides](https://docs.google.com/presentation/d/1f4DZug-PsTKD-4Zmfx6GaD7OK8TZLDmB_X2rVO4GuBM/edit?usp=sharing) | [video](https://youtu.be/To3H4cXtJuo?si=cxCXLmPlt39rzW_7) | EMNLP NLLP | 11 Aug, 08:00 |
+| 8 | Semantic Chunking and Hybrid Retrieval for Financial Document QA: An Ablation Study on FinanceBench | Ebuka Chidubem Uzoama | TBD | [repo](https://github.com/anote-ai/Research-semanticchunking) | [paper](https://github.com/anote-ai/Research-semanticchunking/blob/main/paper.pdf) | [blog](https://github.com/anote-ai/Research-semanticchunking/blob/main/blog_post.md) | [slides](https://docs.google.com/presentation/d/1DeSGGixXe_NE07w6L1dhHi4MVDZgtsfocinTUh-M_os/edit?usp=sharing) | [video](https://www.youtube.com/watch?v=ZfJXjui6EZU) | TBD | TBD |
+| 9 | Failure Propagation in Agentic RAG Pipelines: A Diagnostic Benchmark | Lauren Pothuru | T4 RAG Failure | [repo](https://github.com/anote-ai/research-agenticrag) | [paper](https://github.com/anote-ai/Research-AgenticRAG/blob/main/paper/main.pdf) | [blog](https://github.com/anote-ai/Research-AgenticRAG/blob/main/BLOG_POST.md) | [slides](https://docs.google.com/presentation/d/1nyITwLexW_QDyjYmCEB5S94Df1Tb5X4w5xHGQwtzeYI/edit?slide=id.p15#slide=id.p15) | [video](https://youtu.be/Nt2b83nxjaQ?si=vMAQNIwPN3Xnim0S) | EMNLP ORACLE | 18 Sep, 07:59 |
+| 10 | AnnotateBench: How Much Labeled Data Do Annotation Strategies Need Across NLP Tasks? | Aitong Zhang | T2a AnnotateBench | [repo](https://github.com/anote-ai/research-annotatebench) | [paper](https://github.com/anote-ai/Research-AnnotateBench/blob/main/paper/main.pdf) | [blog](https://github.com/anote-ai/Research-AnnotateBench/blob/main/BLOG.md) | Annotatebench Presentation0805 | [video](https://youtu.be/b_rGIsdIk4A?si=M52MsUkfNdl76jRx) | IEEE | TBD |
+| 11 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex | Sharon Zheng | T6 CodeEval | [repo](https://github.com/anote-ai/research-codebench) | [paper](https://github.com/anote-ai/Research-CodeBench/blob/main/Beyond%20Pass%40k-%20Measuring%20Reliability%20and%20Security%20of%20Agentic%20Code%20Generation.pdf) | [blog](https://github.com/anote-ai/Research-CodeBench/blob/docs/reliability-blog-post/docs/blog/beyond-pass-k-reliability-security.md) | Anote Research: Beyond Pass@k: Measuring Reliability & Security of Agentic Code Generation | [video](https://youtu.be/6yxpcMHHMhM?si=MaYZymR41W2hRwzq) | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
+| 12 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex (Part 2) | Bryant Jiang | T6 CodeEval | [repo](https://github.com/anote-ai/research-codebench) | [paper](https://drive.google.com/file/d/1BuXfCbYy_G7r-4-ZqCiROw3hA8bSyAFz/view?usp=drive_link) | [blog](https://github.com/anote-ai/Research-CodeBench/blob/docs/reliability-blog-post/docs/blog/beyond-pass-k-reliability-security.md) | Anote Research: Beyond Pass@k: Measuring Reliability & Security of Agentic Code Generation | [video](https://youtu.be/D7veFmx2t64?si=j74gjeVBf40MgdE6) | DAI 2026 Industry Track + AAAI 2027 | 3 Aug, 19:59 / 28 Jul (AAAI) |
+| 13 | OrchestraBench: Evaluating Multi-Agent Orchestration Failure Modes, Recovery, and Decomposition Quality | Yidian Chen | T7 Orchestration | [repo](https://github.com/anote-ai/research-orchestratebench) | [paper](https://drive.google.com/file/d/1AkDDMjtb4imRZRjQH1fTrYq05bG4MNN1/view) | [blog](https://docs.google.com/document/d/1BPTcKNSiKKbard72d1gnxpbQhEaCqGzUFGnYtDzA-bI/edit) | [slides](https://drive.google.com/file/d/1EaimWoxcvXQTxbunBME0evqoPK3-P-S7/view?usp=drivesdk) | [video](https://youtu.be/YsxvQgm5TxE?si=l_0E87E1UI_bNHzF) | AAAI 2027 — submitted | AAAI: paper + checklist + code/data supplement submitted |
+| 14 | OrchestraBench: Evaluating Multi-Agent Orchestration Failure Modes, Recovery, and Decomposition Quality (Part 2) | Yingzi Gu | T7 Orchestration | [repo](https://github.com/anote-ai/research-orchestratebench) | [paper](https://drive.google.com/file/d/1AkDDMjtb4imRZRjQH1fTrYq05bG4MNN1/view) | [blog](https://docs.google.com/document/d/1BPTcKNSiKKbard72d1gnxpbQhEaCqGzUFGnYtDzA-bI/edit) | [slides](https://docs.google.com/presentation/d/1ctd5hVRdFZm2FJ7gsfEqpmpzTBLrFHgDvhCTUrFPZCU/edit?slide=id.slide_page-1785878591884-928991812#slide=id.slide_page-1785878591884-928991812) | [video](https://youtu.be/rV5GgBufDLg?si=JV4ylNTSvIp-niis) | AAAI 2027 — submitted | AAAI: paper + checklist + code/data supplement submitted |
+| 15 | MetaRoute-Bench: Evaluating Meta-Decision Policies for Agentic Workflows | Alina Kapanova | T8 GameTheory | [repo](https://github.com/anote-ai/Research-MetaRouting) | [paper](https://drive.google.com/file/d/16k3QweZZhSgLahwuo1ybFtg4Ucn9PRvC/view?usp=drive_link) | [blog](https://github.com/anote-ai/Research-COAGeneration/tree/main/blog) | Final presentations_ Alina.pptx | [video](https://youtu.be/xdU-nYOZbwY?si=rnuNYNHNfRVfPCuK) | DAI 2026 Industry Track + AAAI 2027 (aligns DoD SBIR OSW26BZ02-DV004) | 3 Aug, 19:59 / 28 Jul (AAAI) |
+| 16 | Posture & Sustainment Optimization: Where to Place and How to Sustain Assets (DASH-5) | Amelie Norris | T10 OptDecision | [repo](https://github.com/anote-ai/research-postureandsustainmentoptimization) | [paper](https://drive.google.com/file/d/1rYDVFwMFv2bk8xNM2FDQ9Z6J9SVDwhqz/view?usp=sharing) | [blog](https://docs.google.com/document/d/1NX4kvF0V7u_dDA1ngJNnAhKCes0PjMDI/edit?usp=sharing&ouid=108286614331748766817&rtpof=true&sd=true) | Posture and Sustainment Optimization.pdf | [video](https://youtu.be/E-PVqGG3O1M?si=ttGn_2J2Wmuv2-rT) | SAM.gov RFP (DASH-5) — no in-window OpenReview workshop + DAI 2026 | Per solicitation |
+| 17 | Posture & Sustainment Optimization: Where to Place and How to Sustain Assets (DASH-5) | Alyssa Lee | T10 OptDecision | [repo](https://github.com/anote-ai/research-postureandsustainmentoptimization) | [paper](https://drive.google.com/file/d/1rYDVFwMFv2bk8xNM2FDQ9Z6J9SVDwhqz/view?usp=sharing) | [blog](https://docs.google.com/document/d/1NX4kvF0V7u_dDA1ngJNnAhKCes0PjMDI/edit?usp=sharing&ouid=108286614331748766817&rtpof=true&sd=true) | [slides](https://drive.google.com/file/d/1Ud_ynD7r0W6IYtcTC9y0P5KO3tsIRVOk/view?usp=sharing) | [video](https://youtu.be/QjuiJs4nYm8?si=DgJZF6s7x2BPC4kc) | SAM.gov RFP (DASH-5) — no in-window OpenReview workshop + DAI 2026 | Per solicitation |
+| 18 | Adversarial Course-of-Action Generation: Game-Theoretic Multi-Agent Algorithms for COA matching & COA generation | Arun Kanhai | TBD | [repo](https://github.com/anote-ai/research-coageneration) | [paper](https://drive.google.com/file/d/1lbOk0Mtgd2AFneBXdMZGalMeny0jWHuN/view?usp=drive_link) | [blog](https://github.com/anote-ai/Research-COAGeneration/blob/main/blog/coa-bench-self-play.md) | Final presentations_ Arun_Kanhai.pptx | [video](https://youtu.be/_ZvZNUDlIZU?si=hcKQ7DzUTY2-oSDW) | DAI 2026 Industry Track + AAAI 2027 (aligns DoD SBIR OSW26BZ02-DV004) | TBD |
 
-This table reflects the current paper-level organization from the fellowship matching spreadsheet. Several papers now split out of the original 7 track-level starters into standalone repos and venue-specific submissions.
+## Paper Folder Index
 
-| # | Paper | Repo | Fellow(s) | Track | Owner | Target Venue(s) |
-|---|---|---|---|---|---|---|
-| 1 | EnterpriseBench: Do Syntactic Tool-Calling Benchmarks Predict Deployment Trustworthiness? | [research-enterprisebench](https://github.com/anote-ai/research-enterprisebench) | Aye Oyemami | T1a AgenticEval | Spurthi | DAI 2026 Industry Track + AAAI 2027 |
-| 2 | Intent Specification as a First-Class Evaluation Object for Tool-Calling Agents | [research-intentspecification](https://github.com/anote-ai/research-intentspecification) | Susana Haing | T1a AgenticEval | Spurthi | EACL 2027 Industry Track + AAAI 2027 (reach) |
-| 3 | EnterpriseSynth: Agentic SFT + Eval Data from API Schemas Without Live Execution | [research-enterprisesynth](https://github.com/anote-ai/research-enterprisesynth), [Research-Enterprise-Synth-API](https://github.com/anote-ai/Research-Enterprise-Synth-API) | Rashmi Thimmaraju | T1b EnterpriseSynth | Spurthi | MLinPL 2026 + AAAI 2027 |
-| 4 | RetrievalBench: Cross-Domain Ablation of RAG Techniques over Structured Documents | [research-retrievalbench](https://github.com/anote-ai/research-retrievalbench) | Hannah Liang, Zirui Han | T5 RetrievalBench | Spurthi | EMNLP AKBC + AAAI 2027 |
-| 5 | Financial Document Retrieval: Controlled Ablation of Chunking, Reranking & Metadata | [research-financialdocumentretrieval](https://github.com/anote-ai/research-financialdocumentretrieval) | Elaine Hong, Ebuka Chidubem Uzoama | T5 RetrievalBench | Spurthi | EMNLP FinNLP |
-| 6 | Which RAG Techniques Generalize? Legal Contract Retrieval over CUAD | [research-raggeneralization](https://github.com/anote-ai/research-raggeneralization) | Sindhu Shetty | T5 RetrievalBench | Spurthi | EMNLP NLLP |
-| 7 | Does Document Structure Predict Metadata-Annotation Value in RAG? | [research-metadataannotation](https://github.com/anote-ai/research-metadataannotation) | Victoria Piroian | T5 RetrievalBench | Spurthi | ENCODE 2026 |
-| 8 | Failure Propagation in Agentic RAG Pipelines: A Diagnostic Benchmark | [research-agenticrag](https://github.com/anote-ai/research-agenticrag) | Lauren Pothuru | T4 RAG Failure | Spurthi | EMNLP ORACLE |
-| 9 | AnnotateBench: How Much Labeled Data Do Annotation Strategies Need Across NLP Tasks? | [research-annotatebench](https://github.com/anote-ai/research-annotatebench) | Aitong Zhang | T2a AnnotateBench | Spurthi | JDSE 2026 |
-| 10 | AnoteCodeBench: Benchmarking Enterprise Code-Generation Agents vs. Claude Code & Codex | [research-codebench](https://github.com/anote-ai/research-codebench) | Sharon Zheng, Bryant Jiang | T6 CodeEval | Natan | DAI 2026 Industry Track + AAAI 2027 |
-| 11 | Orchestrate-Bench: Learning to Choose Tasks, Tools & Code Execution in Multi-Agent Systems | [research-orchestratebench](https://github.com/anote-ai/research-orchestratebench) | Yidian Chen, Yingzi Gu | T7 Orchestration | Natan | DAI 2026 Industry Track / EMNLP ORACLE + AAAI 2027 |
-| 12 | Adversarial Course-of-Action Generation: Game-Theoretic Multi-Agent Algorithms for MEF & GBC | [research-coageneration](https://github.com/anote-ai/research-coageneration) | Arun Kanhai, Alina Kapanova | T8 GameTheory | Natan | DAI 2026 Industry Track + AAAI 2027 |
-| 14 | Posture & Sustainment Optimization: Where to Place and How to Sustain Assets (DASH-5) | [research-postureandsustainmentoptimization](https://github.com/anote-ai/research-postureandsustainmentoptimization) | Amelie Norris, Alyssa Lee | T10 OptDecision | Natan | SAM.gov RFP (DASH-5) |
-| 15 | Recursive Self Improvement | TBD | Natan Vidra | TBD | Natan | TBD |
+| Folder | Paper(s) | Fellow(s) | Release packet |
+|---|---|---|---|
+| [`researchpapers/EnterpriseBench/`](./researchpapers/EnterpriseBench/) | EnterpriseBench | Aye Oyemami | [`researchops/papers/EnterpriseBench.md`](./researchops/papers/EnterpriseBench.md) |
+| [`researchpapers/DevIntent/`](./researchpapers/DevIntent/) | DevIntent | Susana Haing | [`researchops/papers/DevIntent.md`](./researchops/papers/DevIntent.md) |
+| [`researchpapers/EnterpriseSynth/`](./researchpapers/EnterpriseSynth/) | EnterpriseSynth | Rashmi Thimmaraju | [`researchops/papers/EnterpriseSynth.md`](./researchops/papers/EnterpriseSynth.md) |
+| [`researchpapers/RetrievalBench/`](./researchpapers/RetrievalBench/) | RetrievalBench / RetrievalBench | Hannah Liang, Zirui Han | [`researchops/papers/RetrievalBench.md`](./researchops/papers/RetrievalBench.md) |
+| [`researchpapers/FinancialDocumentRetrieval/`](./researchpapers/FinancialDocumentRetrieval/) | Financial Document Retrieval | Elaine Hong | [`researchops/papers/FinancialDocumentRetrieval.md`](./researchops/papers/FinancialDocumentRetrieval.md) |
+| [`researchpapers/RAGGeneralization/`](./researchpapers/RAGGeneralization/) | Which RAG Techniques Generalize? Legal Contract Retrieval over CUAD | Sindhu Shetty | [`researchops/papers/RAGGeneralization.md`](./researchops/papers/RAGGeneralization.md) |
+| [`researchpapers/SemanticChunking/`](./researchpapers/SemanticChunking/) | Semantic Chunking and Hybrid Retrieval for Financial Document QA | Ebuka Chidubem Uzoama | [`researchops/papers/SemanticChunking.md`](./researchops/papers/SemanticChunking.md) |
+| [`researchpapers/AgenticRAG/`](./researchpapers/AgenticRAG/) | Failure Propagation in Agentic RAG Pipelines | Lauren Pothuru | [`researchops/papers/AgenticRAG.md`](./researchops/papers/AgenticRAG.md) |
+| [`researchpapers/AnnotateBench/`](./researchpapers/AnnotateBench/) | AnnotateBench | Aitong Zhang | [`researchops/papers/AnnotateBench.md`](./researchops/papers/AnnotateBench.md) |
+| [`researchpapers/CodeBench/`](./researchpapers/CodeBench/) | AnoteCodeBench / AnoteCodeBench | Sharon Zheng, Bryant Jiang | [`researchops/papers/CodeBench.md`](./researchops/papers/CodeBench.md) |
+| [`researchpapers/OrchestrateBench/`](./researchpapers/OrchestrateBench/) | OrchestraBench / OrchestraBench | Yidian Chen, Yingzi Gu | [`researchops/papers/OrchestrateBench.md`](./researchops/papers/OrchestrateBench.md) |
+| [`researchpapers/MetaRouteBench/`](./researchpapers/MetaRouteBench/) | MetaRoute-Bench | Alina Kapanova | [`researchops/papers/MetaRouteBench.md`](./researchops/papers/MetaRouteBench.md) |
+| [`researchpapers/PostureAndSustainmentOptimization/`](./researchpapers/PostureAndSustainmentOptimization/) | Posture & Sustainment Optimization / Posture & Sustainment Optimization | Amelie Norris, Alyssa Lee | [`researchops/papers/PostureAndSustainmentOptimization.md`](./researchops/papers/PostureAndSustainmentOptimization.md) |
+| [`researchpapers/COAGeneration/`](./researchpapers/COAGeneration/) | Adversarial Course-of-Action Generation | Arun Kanhai | [`researchops/papers/COAGeneration.md`](./researchops/papers/COAGeneration.md) |
 
----
-
-## Paper Draft Folders
-
-Paper coordination folders under [`researchpapers/`](./researchpapers/) now use paper-title slugs instead of track codes like `T1a` or `T5`. Each folder has a README with the paper topic, GitHub link, YouTube presentation placeholder, paper link, and release-packet link where applicable.
-
-- [`researchpapers/EnterpriseBench/`](./researchpapers/EnterpriseBench/)
-- [`researchpapers/IntentSpecification/`](./researchpapers/IntentSpecification/)
-- [`researchpapers/EnterpriseSynth/`](./researchpapers/EnterpriseSynth/)
-- [`researchpapers/RetrievalBench/`](./researchpapers/RetrievalBench/)
-- [`researchpapers/FinancialDocumentRetrieval/`](./researchpapers/FinancialDocumentRetrieval/)
-- [`researchpapers/RAGGeneralization/`](./researchpapers/RAGGeneralization/)
-- [`researchpapers/MetadataAnnotation/`](./researchpapers/MetadataAnnotation/)
-- [`researchpapers/AgenticRAG/`](./researchpapers/AgenticRAG/)
-- [`researchpapers/AnnotateBench/`](./researchpapers/AnnotateBench/)
-- [`researchpapers/CodeBench/`](./researchpapers/CodeBench/)
-- [`researchpapers/OrchestrateBench/`](./researchpapers/OrchestrateBench/)
-- [`researchpapers/COAGeneration/`](./researchpapers/COAGeneration/)
-- [`researchpapers/PostureAndSustainmentOptimization/`](./researchpapers/PostureAndSustainmentOptimization/)
-- [`researchpapers/RecursiveSelfImprovement/`](./researchpapers/RecursiveSelfImprovement/)
-
-Historical starter drafts that are not in the current paper table are also kept under title slugs:
-
-- [`researchpapers/AgenticEval/`](./researchpapers/AgenticEval/)
-- [`researchpapers/AnnotateROI/`](./researchpapers/AnnotateROI/)
-- [`researchpapers/HumanAITeaming/`](./researchpapers/HumanAITeaming/)
-
----
+Historical folders that are not active rows in the current spreadsheet are retained for reference: [`AgenticEval`](./researchpapers/AgenticEval/), [`AnnotateROI`](./researchpapers/AnnotateROI/), [`HumanAITeaming`](./researchpapers/HumanAITeaming/), [`IntentSpecification`](./researchpapers/IntentSpecification/), [`MetadataAnnotation`](./researchpapers/MetadataAnnotation/), and [`RecursiveSelfImprovement`](./researchpapers/RecursiveSelfImprovement/).
 
 ## Repository Structure
 
-```
+```text
 Research/
-├── anote_fellowship_tracker.xlsx   # Fellowship tracker and legacy planning sheet
-├── main.tex                        # Reference LaTeX template (RAG paper)
-├── researchpapers/
-│   ├── EnterpriseBench/            # Paper-title coordination folder
-│   ├── IntentSpecification/
-│   ├── EnterpriseSynth/
-│   ├── RetrievalBench/
-│   ├── FinancialDocumentRetrieval/
-│   ├── RAGGeneralization/
-│   ├── MetadataAnnotation/
-│   ├── AgenticRAG/
-│   ├── AnnotateBench/
-│   ├── CodeBench/
-│   ├── OrchestrateBench/
-│   ├── COAGeneration/
-│   ├── PostureAndSustainmentOptimization/
-│   ├── RecursiveSelfImprovement/
-│   ├── AgenticEval/                # Historical starter topic
-│   ├── AnnotateROI/                # Historical starter topic
-│   ├── HumanAITeaming/             # Historical starter topic
-│   ├── classification.pdf
-│   ├── questionanswering.pdf
-│   └── retrieval.pdf               # arXiv:2404.07221
-├── researchcode/
-│   ├── Benchmarking-RAG/
-│   ├── Benchmarking-Text-Classification/
-│   ├── Benchmarking-Question-Answering/
-│   └── Benchmarking-ObjectDetection/
-├── researchpresentations/
-│   ├── RAG.pdf
-│   ├── TextClassification.pdf
-│   ├── AI_Talk.pdf
-│   └── HumanCenteredAI.pdf
-└── researchops/
-    ├── papers/                     # Spreadsheet-aligned paper release packets
-    ├── templates/
-    └── conference-submission-checklist.md
+|-- README.md
+|-- anote_fellowship_tracker.xlsx
+|-- researchpapers/              # Paper-folder READMEs and historical PDFs
+|-- researchcode/                # Benchmark code and experiment artifacts
+|-- researchpresentations/       # Prior slide decks and talks
+|-- researchops/                 # Release packets, publishing workflow, and research page prototype
+`-- main.tex                     # Reference LaTeX template
 ```
 
-## Intern Workflow
+## Publishing Workflow
 
-1. **Read** your paper entry in [Current Papers](#current-papers--revised-2026-research-plan) and fill in the matching release packet in [`researchops/papers/`](./researchops/papers/)
-2. **Design** — write a Research Design Doc and link it in the tracker spreadsheet
-3. **Code** — build experiments and link the relevant paper repo, code repo, or benchmark repo
-4. **Results** — run experiments, produce tables/figures
-5. **Paper** — update the draft in `researchpapers/` and/or the linked standalone paper repo
-6. **Repo** — keep the central repo and the paper-specific repo in sync
-7. **Update** — update the tracker spreadsheet, release packet, and publishing assets with all URLs and status
+1. Update the paper folder README with the latest paper, code, blog, deck, video, venue, and submission links.
+2. Update the matching release packet under [`researchops/papers/`](./researchops/papers/).
+3. Confirm paper submission status for arXiv, OpenReview, Hugging Face, Papers With Code, and Medium.
+4. Mirror public-ready assets into `anote.ai/research`, `anote.ai/blog`, `anote.ai/researchTalks`, and social launch tracking.
 
-## Publishing Ops
-
-Use [`researchops/`](./researchops/) as the central operating guide for where each research asset should go.
-
-- Papers and code should be centralized in this repo first.
-- Paper landing content should be prepared for `anote.ai/research`.
-- Research blog content should be prepared for `anote.ai/blog` and Medium.
-- Research presentations should be prepared for `anote.ai/researchTalks`.
-- Social launch copy should be tracked in the external social spreadsheet.
-
-Start with:
-
-- [`researchops/README.md`](./researchops/README.md)
-- [`researchops/conference-submission-checklist.md`](./researchops/conference-submission-checklist.md)
-- [`researchops/templates/paper-release-packet-template.md`](./researchops/templates/paper-release-packet-template.md)
-- [`researchops/templates/intern-outreach-template.md`](./researchops/templates/intern-outreach-template.md)
-- [`researchops/papers/`](./researchops/papers/)
-
----
-
-## Video Talks
+## Prior Video Talks
 
 | Topic | Video |
-|-------|-------|
+|---|---|
 | Fine Tuning LLMs | [YouTube](https://www.youtube.com/watch?v=mMmaTMuRZmo) |
 | Benchmarking Text Classification | [YouTube](https://www.youtube.com/watch?v=IakXvvdaNJQ) |
 | Benchmarking Q&A Models | [YouTube](https://www.youtube.com/watch?v=sppn68PirPQ) |

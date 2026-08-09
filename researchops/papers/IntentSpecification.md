@@ -1,24 +1,5 @@
-# IntentSpecification Release Packet
+# Intent Specification Release Packet
 
-- Spreadsheet title: Intent Specification as a First-Class Evaluation Object for Tool-Calling Agents
-- Track: T1a AgenticEval
-- Fellow(s) assigned: Susana Haing
-- Owner: Spurthi
-- Standalone paper repo: `https://github.com/anote-ai/research-intentspecification`
-- Central coordination repo path: `researchpapers/IntentSpecification/`
-- Target venue(s): EACL 2027 Industry Track + AAAI 2027 (reach)
-- Deadline(s): 29 Nov / 28 Jul (AAAI)
-- Core contribution: Separates intent-specification correctness from syntactic tool-call correctness; shows syntactic accuracy overstates real reliability.
+Superseded by the active DevIntent release packet. Use [`DevIntent.md`](./DevIntent.md) for current spreadsheet row 2.
 
-## Fill In
-
-- Co-authors:
-- arXiv planned date:
-- Current status:
-- PDF path or link:
-- Code link:
-- Research page blurb:
-- Blog draft link:
-- Talk deck path:
-- Social tracker row:
-- Open blockers:
+For active paper packets, use [`README.md`](./README.md). For active paper folders, use [`../../researchpapers/README.md`](../../researchpapers/README.md).

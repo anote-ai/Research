@@ -1,8 +1,5 @@
 # Recursive Self Improvement
 
-This folder tracks the Recursive Self Improvement research thread. The paper topic, venue plan, and reproducibility materials should be filled in as the project scope settles.
+Not present in the current research paper matching spreadsheet. Retained as a planned or historical topic stub.
 
-- GitHub: [Placeholder](https://github.com/anote-ai/research-recursiveselfimprovement)
-- YouTube presentation: [Placeholder](https://www.youtube.com/watch?v=PLACEHOLDER)
-- Paper: [paper.pdf](./paper.pdf)
-- Release packet: [RecursiveSelfImprovement.md](../../researchops/papers/RecursiveSelfImprovement.md)
+For active fellowship paper links, use [`../README.md`](../README.md) and the release packets under [`../../researchops/papers/`](../../researchops/papers/).

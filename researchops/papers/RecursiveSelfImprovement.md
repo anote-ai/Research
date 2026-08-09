@@ -1,24 +1,5 @@
-# RecursiveSelfImprovement Release Packet
+# Recursive Self Improvement Release Packet
 
-- Spreadsheet title: Recursive Self Improvement
-- Track:
-- Fellow(s) assigned: Natan Vidra
-- Owner: Natan
-- Standalone paper repo:
-- Central coordination repo path: `researchpapers/RecursiveSelfImprovement/`
-- Target venue(s):
-- Deadline(s):
-- Core contribution:
+Not present in the current research paper matching spreadsheet. Retained as a planned or historical topic stub.
 
-## Fill In
-
-- Co-authors:
-- arXiv planned date:
-- Current status:
-- PDF path or link:
-- Code link:
-- Research page blurb:
-- Blog draft link:
-- Talk deck path:
-- Social tracker row:
-- Open blockers:
+For active paper packets, use [`README.md`](./README.md). For active paper folders, use [`../../researchpapers/README.md`](../../researchpapers/README.md).

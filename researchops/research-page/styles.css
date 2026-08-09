@@ -319,6 +319,44 @@ a {
   line-height: 1.62;
 }
 
+.project-card__details,
+.project-card__status-list {
+  display: grid;
+  gap: 8px;
+}
+
+.project-card__details div,
+.status-row {
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  background: rgba(23, 33, 39, 0.04);
+}
+
+.project-card__details span,
+.status-row span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-card__details strong,
+.status-row strong {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.status-row a {
+  color: var(--teal);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 .project-card__owner {
   display: flex;
   flex-wrap: wrap;
