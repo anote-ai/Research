@@ -550,7 +550,7 @@ const activeProjects = [
         "url": "https://github.com/anote-ai/Research-AnnotateBench/blob/main/BLOG.md"
       },
       {
-        "label": "Slides: Annotatebench Presentation0805",
+        "label": "Slides",
         "url": ""
       },
       {
@@ -589,7 +589,7 @@ const activeProjects = [
         "url": "https://drive.google.com/file/d/1abscQNGf7w-fVa9NGjr2P2Rmml2IS_HI/view?usp=sharing"
       },
       {
-        "label": "Slides: Anote Research: Beyond Pass@k: Measuring Reliability & Security of Agentic Code Generation",
+        "label": "Slides",
         "url": ""
       },
       {
@@ -657,7 +657,7 @@ const activeProjects = [
         "url": "https://drive.google.com/file/d/1abscQNGf7w-fVa9NGjr2P2Rmml2IS_HI/view?usp=sharing"
       },
       {
-        "label": "Slides: Anote Research: Beyond Pass@k: Measuring Reliability & Security of Agentic Code Generation",
+        "label": "Slides",
         "url": ""
       },
       {
@@ -863,7 +863,7 @@ const activeProjects = [
         "url": "https://github.com/anote-ai/Research-COAGeneration/tree/main/blog"
       },
       {
-        "label": "Slides: Final presentations_ Alina.pptx",
+        "label": "Slides",
         "url": ""
       },
       {
@@ -936,7 +936,7 @@ const activeProjects = [
         "url": "https://docs.google.com/document/d/1NX4kvF0V7u_dDA1ngJNnAhKCes0PjMDI/edit?usp=sharing&ouid=108286614331748766817&rtpof=true&sd=true"
       },
       {
-        "label": "Slides: Posture and Sustainment Optimization.pdf",
+        "label": "Slides",
         "url": ""
       },
       {
@@ -1044,7 +1044,7 @@ const activeProjects = [
         "url": "https://github.com/anote-ai/Research-COAGeneration/blob/main/blog/aaai2027-executable-meta-routing.md"
       },
       {
-        "label": "Slides: Final presentations_ Arun_Kanhai.pptx",
+        "label": "Slides",
         "url": ""
       },
       {

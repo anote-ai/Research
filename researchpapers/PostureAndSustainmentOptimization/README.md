@@ -9,7 +9,7 @@ This folder tracks the local coordination links for Posture & Sustainment Optimi
 - Repository: [https://github.com/anote-ai/research-postureandsustainmentoptimization](https://github.com/anote-ai/research-postureandsustainmentoptimization)
 - Research paper: [https://drive.google.com/file/d/1rYDVFwMFv2bk8xNM2FDQ9Z6J9SVDwhqz/view?usp=sharing](https://drive.google.com/file/d/1rYDVFwMFv2bk8xNM2FDQ9Z6J9SVDwhqz/view?usp=sharing)
 - Blog post: [https://docs.google.com/document/d/1NX4kvF0V7u_dDA1ngJNnAhKCes0PjMDI/edit?usp=sharing&ouid=108286614331748766817&rtpof=true&sd=true](https://docs.google.com/document/d/1NX4kvF0V7u_dDA1ngJNnAhKCes0PjMDI/edit?usp=sharing&ouid=108286614331748766817&rtpof=true&sd=true)
-- Presentation slides: Posture and Sustainment Optimization.pdf
+- Presentation slides: [https://drive.google.com/file/d/1bGgju_-yUfCAFmZobmMDHpnzJWN4yNgG/view?usp=sharing](https://drive.google.com/file/d/1bGgju_-yUfCAFmZobmMDHpnzJWN4yNgG/view?usp=sharing)
 - Presentation video: [https://youtu.be/E-PVqGG3O1M?si=ttGn_2J2Wmuv2-rT](https://youtu.be/E-PVqGG3O1M?si=ttGn_2J2Wmuv2-rT)
 - Venue: [https://sam.gov/workspace/contract/opp/d7ac3f5a0f13425c97a2298f4f6047c2/view](https://sam.gov/workspace/contract/opp/d7ac3f5a0f13425c97a2298f4f6047c2/view)
 
